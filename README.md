@@ -60,7 +60,7 @@ Prefix: `hf.product.`
 
 ## Building the App
 
-For building the application, you will need to have at least JDK 16.
+For building the application, you will need to have at least JDK 17.
 You can build it simply running:
 ```shell
 ./mvnw clean package
