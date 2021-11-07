@@ -35,8 +35,8 @@ public class CommandLineApplication implements CommandLineRunner {
                     System.out.printf(
                         "  %s - %.0f %s%n",
                         ingredient.name(),
-                        ingredient.quantity(),
-                        ingredient.unit()
+                        ingredient.quantity().amount(),
+                        ingredient.quantity().unit()
                     );
                 } else {
                     System.out.printf(

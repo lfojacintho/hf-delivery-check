@@ -9,6 +9,7 @@ import me.lfojacintho.hellofresh.deliverycheck.client.dto.recipe.YieldDto;
 import me.lfojacintho.hellofresh.deliverycheck.config.HelloFreshProductConfiguration;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Delivery;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Ingredient;
+import me.lfojacintho.hellofresh.deliverycheck.domain.Quantity;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Recipe;
 import org.springframework.stereotype.Service;
 
@@ -41,7 +42,6 @@ public class DeliveryService {
                 .withIndex(mealDto.getIndex())
                 .withTitle(mealDto.getRecipe().getName());
 
-
             final RecipeDto recipeDto = client.fetchRecipe(mealDto.getRecipe().getId());
             final List<IngredientDto> ingredients = recipeDto.getIngredients();
             final YieldDto yieldDto =
@@ -61,8 +61,10 @@ public class DeliveryService {
 
                 if (maybeYieldIngredient.isPresent()) {
                     final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
-                    ingredientBuilder.withQuantity(yieldIngredient.getAmount())
-                        .withUnit(yieldIngredient.getUnit());
+                    ingredientBuilder.withQuantity(Quantity.of(
+                        yieldIngredient.getAmount(),
+                        yieldIngredient.getUnit()
+                    ));
                 }
 
                 recipeBuilder.withIngredient(ingredientBuilder.build());
@@ -72,7 +74,6 @@ public class DeliveryService {
         });
 
         return deliveryBuilder.build();
-
     }
 
     private List<MealDto> fetchSelectedMeals() {

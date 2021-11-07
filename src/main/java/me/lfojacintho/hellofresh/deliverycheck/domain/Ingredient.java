@@ -2,21 +2,19 @@ package me.lfojacintho.hellofresh.deliverycheck.domain;
 
 public record Ingredient(
     String name,
-    Double quantity,
-    String unit,
+    Quantity quantity,
     boolean delivered
 ) {
 
     public boolean isQuantityAvailable() {
-        return quantity != null && unit != null;
+        return quantity != null;
     }
 
     public static final class IngredientBuilder {
 
-        private boolean delivered;
         private String name;
-        private double quantity;
-        private String unit;
+        private Quantity quantity;
+        private boolean delivered;
 
         private IngredientBuilder() {}
 
@@ -29,13 +27,8 @@ public record Ingredient(
             return this;
         }
 
-        public IngredientBuilder withQuantity(final double quantity) {
+        public IngredientBuilder withQuantity(final Quantity quantity) {
             this.quantity = quantity;
-            return this;
-        }
-
-        public IngredientBuilder withUnit(final String unit) {
-            this.unit = unit;
             return this;
         }
 
@@ -44,6 +37,6 @@ public record Ingredient(
             return this;
         }
 
-        public Ingredient build() {return new Ingredient(name, quantity, unit, delivered);}
+        public Ingredient build() {return new Ingredient(name, quantity, delivered);}
     }
 }
