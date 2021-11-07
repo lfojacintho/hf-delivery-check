@@ -46,16 +46,4 @@ public class RecipeDto {
     public void setYields(final List<YieldDto> yields) {
         this.yields = yields;
     }
-
-    public List<IngredientDto> getShippedIngredients() {
-        return getFilteredIngredients(true);
-    }
-
-    public List<IngredientDto> getNonShippedIngredients() {
-        return getFilteredIngredients(false);
-    }
-
-    private List<IngredientDto> getFilteredIngredients(final boolean shipped) {
-        return ingredients.stream().filter(ingredientDto -> ingredientDto.isShipped() == shipped).toList();
-    }
 }

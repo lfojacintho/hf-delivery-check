@@ -7,6 +7,9 @@ import me.lfojacintho.hellofresh.deliverycheck.client.dto.recipe.IngredientDto;
 import me.lfojacintho.hellofresh.deliverycheck.client.dto.recipe.RecipeDto;
 import me.lfojacintho.hellofresh.deliverycheck.client.dto.recipe.YieldDto;
 import me.lfojacintho.hellofresh.deliverycheck.config.HelloFreshProductConfiguration;
+import me.lfojacintho.hellofresh.deliverycheck.domain.Delivery;
+import me.lfojacintho.hellofresh.deliverycheck.domain.Ingredient;
+import me.lfojacintho.hellofresh.deliverycheck.domain.Recipe;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -28,51 +31,47 @@ public class DeliveryService {
         this.productConfiguration = productConfiguration;
     }
 
-    public void generateDeliveryList() {
+    public Delivery retrieveDelivery() {
         final List<MealDto> mealDtos = fetchSelectedMeals();
+        final Delivery.DeliveryBuilder deliveryBuilder = Delivery.DeliveryBuilder.builder();
 
-        System.out.println("Your delivery contains the following recipes:");
         mealDtos.forEach(mealDto -> {
-            System.out.printf(
-                "  %dx (%d) - %s%n",
-                mealDto.getSelection().getQuantity(),
-                mealDto.getIndex(),
-                mealDto.getRecipe().getName()
-            );
+            final Recipe.RecipeBuilder recipeBuilder = Recipe.RecipeBuilder.builder()
+                .withQuantity(mealDto.getSelection().getQuantity())
+                .withIndex(mealDto.getIndex())
+                .withTitle(mealDto.getRecipe().getName());
 
-            System.out.println();
-            System.out.println("The following ingredients should be delivered");
+
             final RecipeDto recipeDto = client.fetchRecipe(mealDto.getRecipe().getId());
-            final List<IngredientDto> ingredients = recipeDto.getShippedIngredients();
+            final List<IngredientDto> ingredients = recipeDto.getIngredients();
             final YieldDto yieldDto =
-                recipeDto.getYields().stream().filter(y -> y.getYields() == productConfiguration.servings()).findFirst().get();
+                recipeDto.getYields()
+                    .stream()
+                    .filter(y -> y.getYields() == productConfiguration.servings())
+                    .findFirst()
+                    .get();
 
             ingredients.forEach(ingredientDto -> {
                 final Optional<IngredientAmountDto> maybeYieldIngredient = yieldDto.getIngredients().stream()
                     .filter(ingredientAmountDto -> ingredientDto.getId().equals(ingredientAmountDto.getId()))
                     .findFirst();
+                final Ingredient.IngredientBuilder ingredientBuilder = Ingredient.IngredientBuilder.builder()
+                    .withName(ingredientDto.getName())
+                    .withDelivered(ingredientDto.isShipped());
 
-                if (maybeYieldIngredient.isEmpty()) {
-                    System.out.printf(
-                        "  %s - Unknown quantity%n",
-                        ingredientDto.getName()
-                    );
-                } else {
+                if (maybeYieldIngredient.isPresent()) {
                     final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
-
-                    System.out.printf(
-                        "  %s - %.0f %s%n",
-                        ingredientDto.getName(),
-                        yieldIngredient.getAmount(),
-                        yieldIngredient.getUnit()
-                    );
+                    ingredientBuilder.withQuantity(yieldIngredient.getAmount())
+                        .withUnit(yieldIngredient.getUnit());
                 }
 
+                recipeBuilder.withIngredient(ingredientBuilder.build());
             });
 
-            System.out.println();
-            System.out.println();
+            deliveryBuilder.withRecipe(recipeBuilder.build());
         });
+
+        return deliveryBuilder.build();
 
 //        System.out.println();
 //        System.out.println("The following ingredients should be delivered");
