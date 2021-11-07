@@ -75,3 +75,64 @@ After you have the JAR file, don't forget to set the mandatory parameters (eithe
 cd target
 java -jar hellofresh-delivery-check-0.0.1-SNAPSHOT.jar 
 ```
+
+## Output example
+
+```
+Your delivery contains the following recipes:
+  1x (4) - Honig-Senf-Hähnchen mit Kürbispüree
+
+The following ingredients should be delivered
+  Kürbis (Hokkaido) - 1 Stück
+  Gemüsebrühe - 4 g
+  Kochsahne - 200 g
+  Hähnchenbrustfilet - 250 g
+  Honig-Senf-Dressing - 50 ml
+  rote Zwiebel - 1 Stück
+  Feldsalat - 75 g
+  Kürbiskerne - 10 g
+  körniger Senf - 17 g
+
+
+  1x (15) - BBQ-Rindfleisch-Burger mit Bacon und Käse
+
+The following ingredients should be delivered
+  Salatherz (Romana) - 1 Stück
+  Simmentaler Rinderhackfleisch - 300 g
+  Bacon (Scheiben) - 100 g
+  BBQ-Soße - 40 ml
+  Brioche Bun, natur - 2 Stück
+  Käse-Mix - 50 g
+  Maiskolben - 2 Stück
+  Mayonnaise - 34 ml
+  Limette, gewachst - 1 Stück
+  Butter - 20 g
+  Sriracha Sauce - 8 ml
+
+
+  1x (34) - Knuspriges Kräuterschnitzel
+
+The following ingredients should be delivered
+  Gewürzmischung „Hello Paprika“ - 2 g
+  Feldsalat - 75 g
+  Kartoffeln (Drillinge) - 400 g
+  Petersilie glatt/Schnittlauch - 10 g
+  Schweineschnitzel - 280 g
+  Joghurt - 75 g
+  Semmelbrösel - 50 g
+  Zitrone, gewachst - 1 Stück
+  Radieschen - 100 g
+  Mayonnaise - 17 ml
+  Weizenmehl - 2 Esslöffel
+
+
+You need to have the following ingredients at home:
+  Öl* - 2 Esslöffel
+  Öl* - 110 ml
+  Salz* - 0 nach Geschmack
+  Pfeffer* - 0 nach Geschmack
+  Butter* - 1 Teelöffel
+  Wasser* - 150 ml
+  Olivenöl* - 1 Esslöffel
+  Ei* - 1 Stück
+```
