@@ -1,9 +1,16 @@
 package me.lfojacintho.hellofresh.deliverycheck;
 
 import me.lfojacintho.hellofresh.deliverycheck.domain.Delivery;
+import me.lfojacintho.hellofresh.deliverycheck.domain.Ingredient;
+import me.lfojacintho.hellofresh.deliverycheck.domain.Quantity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 @Component
 public class CommandLineApplication implements CommandLineRunner {
@@ -18,6 +25,7 @@ public class CommandLineApplication implements CommandLineRunner {
     @Override
     public void run(final String... args) {
         final Delivery delivery = deliveryService.retrieveDelivery();
+        final Map<String, List<Quantity>> nonDeliveredIngredientMap = new LinkedHashMap<>();
 
         System.out.println("Your delivery contains the following recipes:");
         delivery.recipes().forEach(recipe -> {
@@ -46,8 +54,54 @@ public class CommandLineApplication implements CommandLineRunner {
                 }
             });
 
+            recipe.nonDeliveredIngredients().forEach(ingredient -> {
+                if (ingredient.isQuantityAvailable()) {
+                    aggregateNonDeliveredIngredients(nonDeliveredIngredientMap, ingredient);
+                }
+            });
+
             System.out.println();
             System.out.println();
         });
+
+        System.out.println("You need to have the following ingredients at home:");
+        nonDeliveredIngredientMap.forEach((name, quantities) -> quantities.forEach(quantity -> System.out.printf(
+            "  %s - %.0f %s%n",
+            name,
+            quantity.amount(),
+            quantity.unit()
+        )));
+    }
+
+    private void aggregateNonDeliveredIngredients(
+        final Map<String, List<Quantity>> nonDeliveredIngredientMap,
+        final Ingredient ingredient
+    ) {
+        if (!nonDeliveredIngredientMap.containsKey(ingredient.name())) {
+            final List<Quantity> quantities = new ArrayList<>();
+            quantities.add(ingredient.quantity());
+            nonDeliveredIngredientMap.put(ingredient.name(), quantities);
+        } else {
+            final List<Quantity> quantities = nonDeliveredIngredientMap.get(ingredient.name());
+            final Quantity existingQuantity = findAndRemoveQuantityWithSameUnit(quantities, ingredient.quantity());
+            if (existingQuantity != null) {
+                quantities.add(existingQuantity.plus(ingredient.quantity()));
+            } else {
+                quantities.add(ingredient.quantity());
+            }
+        }
+    }
+
+    private Quantity findAndRemoveQuantityWithSameUnit(
+        final List<Quantity> quantities,
+        final Quantity quantity
+    ) {
+        for (int i = 0; i < quantities.size(); i++) {
+            if (quantities.get(i).isSameUnit(quantity)) {
+                return quantities.remove(i);
+            }
+        }
+
+        return null;
     }
 }
