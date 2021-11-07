@@ -5,6 +5,7 @@ import me.lfojacintho.hellofresh.deliverycheck.domain.Ingredient;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Quantity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+@Profile("!test")
 @Component
 public class CommandLineApplication implements CommandLineRunner {
 

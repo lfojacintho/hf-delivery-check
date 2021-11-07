@@ -1,0 +1,740 @@
+{
+  "id": "61508b64665c2655834786b3",
+  "week": "2021-W45",
+  "meals":
+  [
+    {
+      "index": 1,
+      "recipe":
+      {
+        "id": "615089fd56cb000ec553d5f2",
+        "name": "Schweinefilet mit Honig-Senf-Gemüse",
+        "headline": "dazu cremige Porreesoße",
+        "prepTime": "PT40M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/schweinefilet-mit-honig-senf-gemuse-21256a62.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/schweinefilet-mit-honig-senf-gemuse-615089fd56cb000ec553d5f2",
+        "tags":
+        [
+          {
+            "name": "Family",
+            "type": "family",
+            "colorHandle": "familyFriendly",
+            "preferences":
+            [
+              "Familienfreundlich"
+            ]
+          },
+          {
+            "name": "Ohne Weizen",
+            "type": "naturally-gluten-free",
+            "colorHandle": "glutenFree",
+            "preferences":
+            [
+              "Balance"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 2868,
+          "calories": 685,
+          "carbohydrate": 55,
+          "protein": 38
+        }
+      }
+    },
+    {
+      "index": 14,
+      "recipe":
+      {
+        "id": "61508a278ff84e6df025f8a7",
+        "name": "Schwedische Frikadellen mit Kartoffelstampf",
+        "headline": "gerösteten Karotten und Wildpreiselbeermarmelade",
+        "prepTime": "PT40M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/schwedische-frikadellen-mit-kartoffelstampf-b1e80254.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/schwedische-frikadellen-mit-kartoffelstampf-61508a278ff84e6df025f8a7",
+        "tags":
+        [
+          {
+            "name": "Family",
+            "type": "family",
+            "colorHandle": "familyFriendly",
+            "preferences":
+            [
+              "Familienfreundlich"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 3902,
+          "calories": 933,
+          "carbohydrate": 85,
+          "protein": 38
+        }
+      }
+    },
+    {
+      "index": 34,
+      "selection":
+      {
+        "quantity": 1
+      },
+      "recipe":
+      {
+        "id": "61508ab887beb668e037cee5",
+        "name": "Knuspriges Kräuterschnitzel",
+        "headline": "dazu Ofenkartoffeln und Feldsalat mit Radieschen",
+        "prepTime": "PT35M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/knuspriges-krauterschnitzel-ca7a9647.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/knuspriges-krauterschnitzel-61508ab887beb668e037cee5",
+        "tags":
+        [
+          {
+            "name": "Family",
+            "type": "family",
+            "colorHandle": "familyFriendly",
+            "preferences":
+            [
+              "Familienfreundlich"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 3066,
+          "calories": 733,
+          "carbohydrate": 68,
+          "protein": 44
+        }
+      }
+    },
+    {
+      "index": 4,
+      "selection":
+      {
+        "quantity": 1
+      },
+      "recipe":
+      {
+        "id": "61508a0dcc9f2a786e62b22f",
+        "name": "Honig-Senf-Hähnchen mit Kürbispüree",
+        "headline": "dazu Feldsalat mit karamellisierten Zwiebeln & Senfsoße",
+        "prepTime": "PT35M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/honig-senf-hahnchen-mit-kurbispuree-7322a4d7.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/honig-senf-hahnchen-mit-kurbispuree-61508a0dcc9f2a786e62b22f",
+        "label":
+        {
+          "text": "Kürbis-Special",
+          "handle": "kurbis-special",
+          "foregroundColor": "#FFFFFF",
+          "backgroundColor": "#b980d0"
+        },
+        "tags":
+        [
+          {
+            "name": "Ohne Weizen",
+            "type": "naturally-gluten-free",
+            "colorHandle": "glutenFree",
+            "preferences":
+            [
+              "Balance"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 2474,
+          "calories": 591,
+          "carbohydrate": 24,
+          "protein": 39
+        }
+      }
+    },
+    {
+      "index": 29,
+      "recipe":
+      {
+        "id": "61508a9774f35253dc6b3803",
+        "name": "Koreanische Bulgogi Bowl mit Rinderhackfleisch",
+        "headline": "Gurkenstiften und geröstetem Sesam",
+        "prepTime": "PT35M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/koreanische-bulgogi-bowl-mit-rinderhackfleisch-f915d1af.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/koreanische-bulgogi-bowl-mit-rinderhackfleisch-61508a9774f35253dc6b3803",
+        "tags":
+        [
+          {
+            "name": "Ohne Milchprodukte",
+            "type": "ohne-milchprodukte",
+            "colorHandle": "calorieSmart",
+            "preferences":
+            [
+              "Balance"
+            ]
+          },
+          {
+            "name": "One-Pot Gericht",
+            "type": "ein-topf-gericht",
+            "colorHandle": "quickPrep",
+            "preferences":
+            [
+              "Balance",
+              "Veggie Gerichte",
+              "Fleisch & Gemüse",
+              "Zeit sparen",
+              "Familienfreundlich",
+              "Neuentdeckungen",
+              "Veggie & Fisch"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 3622,
+          "calories": 866,
+          "carbohydrate": 87,
+          "protein": 37
+        }
+      }
+    },
+    {
+      "index": 28,
+      "selection":
+      {
+        "quantity": 1
+      },
+      "recipe":
+      {
+        "id": "61508a95efd627471144d91d",
+        "name": "Schnelle Maxi-Tortelli Ricotta-Spinat",
+        "headline": "in tomatiger Sahnesoße mit Rucola-Topping",
+        "prepTime": "PT15M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/schnelle-maxi-tortelli-ricotta-spinat-d58739ee.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/schnelle-maxi-tortelli-ricotta-spinat-61508a95efd627471144d91d",
+        "tags":
+        [
+          {
+            "name": "Vegetarisch",
+            "type": "veggie",
+            "colorHandle": "veggie",
+            "preferences":
+            [
+              "Veggie Gerichte",
+              "Veggie & Fisch",
+              "Familienfreundlich",
+              "Fleisch & Gemüse"
+            ]
+          },
+          {
+            "name": "Wenig Aufwand",
+            "type": "wenig-aufwand",
+            "colorHandle": "quickPrep",
+            "preferences":
+            [
+              "Zeit sparen",
+              "Balance",
+              "Veggie Gerichte",
+              "Fleisch & Gemüse",
+              "Familienfreundlich",
+              "Neuentdeckungen",
+              "Veggie & Fisch"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 3855,
+          "calories": 921,
+          "carbohydrate": 91,
+          "protein": 28
+        }
+      }
+    },
+    {
+      "index": 9,
+      "recipe":
+      {
+        "id": "61508aaa8ff84e6df025f8ab",
+        "name": "Vegane Gnocchi in Spinat-Tomaten-Soße",
+        "headline": "Bei diesem Rezept wird 50% weniger CO2e durch Zutaten & Transport verursacht als bei einem durchschnittlichen HelloFresh Rezept.",
+        "prepTime": "PT35M",
+        "image": "https://img.hellofresh.com/q_auto/recipes/image/vegane-gnocchi-in-spinat-tomaten-sosze-80a6a973.jpg",
+        "websiteURL": "https://www.hellofresh.de/recipes/vegane-gnocchi-in-spinat-tomaten-sosze-61508aaa8ff84e6df025f8ab",
+        "tags":
+        [
+          {
+            "name": "Vegan",
+            "type": "vegan",
+            "colorHandle": "vegan",
+            "preferences":
+            [
+              "Veggie Gerichte",
+              "Neuentdeckungen",
+              "Veggie & Fisch",
+              "Familienfreundlich"
+            ]
+          },
+          {
+            "name": "Family",
+            "type": "family",
+            "colorHandle": "familyFriendly",
+            "preferences":
+            [
+              "Familienfreundlich"
+            ]
+          },
+          {
+            "name": "Klimaheld",
+            "type": "klima-held",
+            "colorHandle": "vegan",
+            "preferences":
+            [
+              "Veggie & Fisch",
+              "Neuentdeckungen",
+              "Familienfreundlich",
+              "Zeit sparen",
+              "Balance",
+              "Veggie Gerichte",
+              "Fleisch & Gemüse"
+            ]
+          }
+        ],
+        "nutrition":
+        {
+          "energy": 3158,
+          "calories": 755,
+          "carbohydrate": 66,
+          "protein": 12
+        }
+      }
+    }
+  ],
+  "mealsReady": true,
+  "addOns":
+  {
+    "selectionLimit": 100,
+    "groups":
+    [
+      {
+        "groupType": "express",
+        "sku": "DE-AEB-0-0-0",
+        "selectionLimit": 50,
+        "addOns":
+        [
+          {
+            "index": 701,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 899,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1798,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2697,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 3596,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 4495,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 5394,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089f7306db112b23e09f0",
+              "name": "Tuna-Salat mit Hirtenkäse & Butterbohnen",
+              "headline": "Fertig in 5 Minuten | Zubereitungsoptionen: 1 Portion für 2 Prs. oder 2 Portionen für 1 Prs.",
+              "prepTime": "PT05M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/tuna-salat-mit-hirtenkase-butterbohnen-2708d322.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/tuna-salat-mit-hirtenkase-butterbohnen-615089f7306db112b23e09f0"
+            }
+          },
+          {
+            "index": 702,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 849,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1698,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2547,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 3396,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 4245,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 5094,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089f92c679a2f5e7eae39",
+              "name": "Fusilli in cremiger Bacon-Käse-Soße",
+              "headline": "Fertig in 5 Minuten | Mikrowelle erforderlich | Zubereitungsoptionen: 1 Portion für 2 Prs. oder 2 Portionen für 1 Prs.",
+              "prepTime": "PT05M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/fusilli-in-cremiger-bacon-kase-sosze-bf21718e.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/fusilli-in-cremiger-bacon-kase-sosze-615089f92c679a2f5e7eae39"
+            }
+          }
+        ]
+      },
+      {
+        "groupType": "appetizer",
+        "sku": "DE-AAB-0-0-0",
+        "selectionLimit": 30,
+        "addOns":
+        [
+          {
+            "index": 301,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 899,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1798,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2697,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 3596,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 4495,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 5394,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089e4cfbf9f0899460084",
+              "name": "Tom Kha Gai! Thailändische Hähnchen-Kokos-Suppe",
+              "headline": "für 2 Personen | 30 Minuten",
+              "prepTime": "PT30M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/tom-kha-gai-thailandische-kokossuppe-cd079d02.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/tom-kha-gai-thailandische-hahnchen-kokos-suppe-615089e4cfbf9f0899460084"
+            }
+          },
+          {
+            "index": 303,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 799,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1598,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2397,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 3196,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 3995,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 4794,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089e9271f9d01975424ac",
+              "name": "Hoisin-Hackfleisch-Miniburger",
+              "headline": "für 2 – 3 Personen | 30 Minuten",
+              "prepTime": "PT30M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/hoisin-hackfleisch-miniburger-af4c67df.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/hoisin-hackfleisch-miniburger-615089e9271f9d01975424ac"
+            },
+            "selection":
+            {
+              "skipped": false,
+              "oneOffQuantity": 1,
+              "preselectedQuantity": 0
+            }
+          }
+        ]
+      },
+      {
+        "groupType": "dessert",
+        "sku": "DE-ADB-0-0-0",
+        "selectionLimit": 30,
+        "addOns":
+        [
+          {
+            "index": 401,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 749,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1498,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2247,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 2996,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 3745,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 4494,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089eccc9f2a786e62b22b",
+              "name": "Carrot Cake mit Creamcheese-Lime-Frosting",
+              "headline": "für 3 – 4 Personen | 55 Minuten",
+              "prepTime": "PT55M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/carrot-cake-mit-creamcheese-lime-frosting-911fa4c5.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/carrot-cake-mit-creamcheese-lime-frosting-615089eccc9f2a786e62b22b",
+              "label":
+              {
+                "text": "Veggie",
+                "handle": "veggie-de",
+                "foregroundColor": "#FFFFFF",
+                "backgroundColor": "#009746"
+              }
+            }
+          },
+          {
+            "index": 421,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 299,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 598,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 897,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 1196,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 1495,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 1794,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089ee1180a41fc02d142a",
+              "name": "Tiramisu",
+              "headline": "1 Portion (Inhalt: 100 g) | verzehrfertig | Serviervorschlag",
+              "prepTime": "PT00M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/tiramisu-fa8719bc.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/tiramisu-615089ee1180a41fc02d142a",
+              "label":
+              {
+                "text": "Veggie",
+                "handle": "veggie-de",
+                "foregroundColor": "#FFFFFF",
+                "backgroundColor": "#009746"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "groupType": "readymeals",
+        "sku": "DE-ARM-0-0-0",
+        "selectionLimit": 30,
+        "addOns":
+        [
+          {
+            "index": 521,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 699,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1398,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2097,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 2796,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 3495,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 4194,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089f12188cb127c0080f6",
+              "name": "Quiche mit Lachs und Spinat",
+              "headline": "1 – 2 Portionen (Inhalt: 350 g) | erhitzen & genießen | Serviervorschlag",
+              "prepTime": "PT15M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/quiche-mit-lachs-und-spinat-feb0d4a8.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/quiche-mit-lachs-und-spinat-615089f12188cb127c0080f6"
+            }
+          },
+          {
+            "index": 522,
+            "isPreselectable": false,
+            "quantityOptions":
+            [
+              {
+                "quantity": 1,
+                "totalAmount": 699,
+                "people": 0
+              },
+              {
+                "quantity": 2,
+                "totalAmount": 1398,
+                "people": 0
+              },
+              {
+                "quantity": 3,
+                "totalAmount": 2097,
+                "people": 0
+              },
+              {
+                "quantity": 4,
+                "totalAmount": 2796,
+                "people": 0
+              },
+              {
+                "quantity": 5,
+                "totalAmount": 3495,
+                "people": 0
+              },
+              {
+                "quantity": 6,
+                "totalAmount": 4194,
+                "people": 0
+              }
+            ],
+            "recipe":
+            {
+              "id": "615089f234829e196d319086",
+              "name": "Quiche Lorraine mit Schinken",
+              "headline": "1 – 2 Portionen (Inhalt: 350 g) | erhitzen & genießen | Serviervorschlag",
+              "prepTime": "PT15M",
+              "image": "https://img.hellofresh.com/q_auto/recipes/image/quiche-lorraine-mit-schinken-f8a12b2b.jpg",
+              "websiteURL": "https://www.hellofresh.de/recipes/quiche-lorraine-mit-schinken-615089f234829e196d319086"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

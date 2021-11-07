@@ -1,0 +1,1431 @@
+{
+  "country": "DE",
+  "id": "61508a0dcc9f2a786e62b22f",
+  "name": "Honig-Senf-Hähnchen mit Kürbispüree",
+  "seoName": "Honig-Senf-Hähnchen mit Kürbispüree",
+  "category": null,
+  "slug": "honig-senf-hahnchen-mit-kurbispuree",
+  "headline": "dazu Feldsalat mit karamellisierten Zwiebeln & Senfsoße",
+  "description": "Mhhm … dieses Gericht ist genau richtig, um gesund zu genießen! Und dabei sogar richtig proteinreich dank des Hähnchens. Ein echt einfaches und schnell gemachtes Gericht, das Dir heute den Tag verschönert. Wir wünschen Dir einen guten Appetit!",
+  "descriptionHTML": "<p>Mhhm … dieses Gericht ist genau richtig, um gesund zu genießen! Und dabei sogar richtig proteinreich dank des Hähnchens. Ein echt einfaches und schnell gemachtes Gericht, das Dir heute den Tag verschönert. Wir wünschen Dir einen guten Appetit!</p>",
+  "descriptionMarkdown": "Mhhm … dieses Gericht ist genau richtig, um gesund zu genießen! Und dabei sogar richtig proteinreich dank des Hähnchens. Ein echt einfaches und schnell gemachtes Gericht, das Dir heute den Tag verschönert. Wir wünschen Dir einen guten Appetit!",
+  "seoDescription": "Hier kommt ein kreatives Rezept für Dich: Honig-Senf-Hähnchen mit Kürbispüree,  dazu Feldsalat mit karamellisierten Zwiebeln & Senfsoße",
+  "comment": "R3032-2",
+  "difficulty": 3,
+  "prepTime": "PT35M",
+  "totalTime": "PT35M",
+  "servingSize": 555,
+  "createdAt": "2021-09-26T14:56:14+00:00",
+  "updatedAt": "2021-10-05T14:49:11+00:00",
+  "link": "https://hellofresh.com/recipes/61508a0dcc9f2a786e62b22f",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/honig-senf-hahnchen-mit-kurbispuree-7322a4d7.jpg",
+  "imagePath": "/image/honig-senf-hahnchen-mit-kurbispuree-7322a4d7.jpg",
+  "cardLink": null,
+  "videoLink": null,
+  "nutrition":
+  [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energie (kJ)",
+      "amount": 2474,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energie (kcal)",
+      "amount": 591,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fett",
+      "amount": 37,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "davon gesättigte Fettsäuren",
+      "amount": 14,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Kohlenhydrate",
+      "amount": 24,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "davon Zucker",
+      "amount": 19,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Eiweiß",
+      "amount": 39,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salz",
+      "amount": 2,
+      "unit": "g"
+    }
+  ],
+  "ingredients":
+  [
+    {
+      "country": "DE",
+      "id": "55cb734f4dab71420d8b4568",
+      "type": "hokkaido-kurbis",
+      "name": "Kürbis (Hokkaido)",
+      "slug": "hokkaido-kurbis",
+      "description": null,
+      "internalName": "Hokkaido-Kürbis",
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/55cb734f4dab71420d8b4568-10fc6d69.png",
+      "imagePath": "/ingredient/55cb734f4dab71420d8b4568-10fc6d69.png",
+      "usage": 100,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fc15",
+        "type": "pumpkin",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc15-a697c3c3.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc15-a697c3c3.png",
+        "usageByCountry":
+        {
+          "AO": 10,
+          "AT": 139,
+          "AU": 212,
+          "BE": 71,
+          "CA": 0,
+          "CG": 0,
+          "CH": 50,
+          "CK": 0,
+          "DE": 127,
+          "DK": 13,
+          "ER": 0,
+          "FJ": 7,
+          "FR": 46,
+          "GB": 0,
+          "GN": 38,
+          "IT": 9,
+          "LU": 98,
+          "MR": 0,
+          "NL": 75,
+          "NO": 2,
+          "NZ": 269,
+          "SE": 22,
+          "US": 3
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:33+00:00",
+        "uuid": "ba314c74-7a47-594f-8155-f0cde49267ca",
+        "name": "Kürbis",
+        "slug": "Kürbis"
+      },
+      "uuid": "0eb47555-0ff7-5439-af5b-55a76301656e"
+    },
+    {
+      "country": "DE",
+      "id": "58da10324f78db45e7284f92",
+      "type": "gemusebruhe-shipped",
+      "name": "Gemüsebrühe",
+      "slug": "gemusebruhe",
+      "description": null,
+      "internalName": "Gemüsebrühe shipped",
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/58da10324f78db45e7284f92-1e7088f5.png",
+      "imagePath": "/ingredient/58da10324f78db45e7284f92-1e7088f5.png",
+      "usage": 1924,
+      "hasDuplicatedName": null,
+      "allergens":
+      [
+        "57962a07b7e8697d4b3052fc"
+      ],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fb57",
+        "type": "broth",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb57-6d9f9ef5.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb57-6d9f9ef5.png",
+        "usageByCountry":
+        {
+          "AO": 0,
+          "AT": 4124,
+          "AU": 0,
+          "BE": 25,
+          "CA": 33,
+          "CG": 0,
+          "CH": 686,
+          "CK": 0,
+          "DE": 3134,
+          "DK": 0,
+          "ER": 0,
+          "FJ": 0,
+          "FR": 65,
+          "GB": 84,
+          "GN": 21,
+          "IT": 1,
+          "LU": 2581,
+          "MR": 0,
+          "NL": 1,
+          "NO": 0,
+          "NZ": 0,
+          "SE": 40,
+          "US": 0
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:30+00:00",
+        "uuid": "7ef4529c-c210-5d1f-a7cd-faf3d412cd15",
+        "name": "Lager Konzentrat",
+        "slug": "Lager-Konzentrat"
+      },
+      "uuid": "f87e31e8-87fb-53af-8f7f-6942879b730a"
+    },
+    {
+      "country": "DE",
+      "id": "5553490f4dab71893e8b456c",
+      "type": "kochsahne",
+      "name": "Kochsahne",
+      "slug": "kochsahne",
+      "description": null,
+      "internalName": null,
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/5553490f4dab71893e8b456c.png",
+      "imagePath": "/image/5553490f4dab71893e8b456c.png",
+      "usage": 1258,
+      "hasDuplicatedName": null,
+      "allergens":
+      [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fb85",
+        "type": "cream",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb85-4c2b627f.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb85-4c2b627f.png",
+        "usageByCountry":
+        {
+          "AO": 147,
+          "AT": 3343,
+          "AU": 555,
+          "BE": 1550,
+          "CA": 827,
+          "CG": 9376,
+          "CH": 1223,
+          "CK": 378,
+          "DE": 2881,
+          "DK": 298,
+          "ER": 924,
+          "FJ": 185,
+          "FR": 347,
+          "GB": 322,
+          "GN": 62,
+          "IT": 15,
+          "LU": 2039,
+          "MR": 59,
+          "NL": 1370,
+          "NO": 89,
+          "NZ": 609,
+          "SE": 397,
+          "US": 2587
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:30+00:00",
+        "uuid": "ff1e6156-3966-5cad-800e-14a4a0d60d04",
+        "name": "Sahne",
+        "slug": "Sahne"
+      },
+      "uuid": "4fd4ada3-ceb3-578c-840a-9553a9704a72"
+    },
+    {
+      "country": "DE",
+      "id": "56c597a2fd2cb93b428b456b",
+      "type": "hahnchenbrustfilet",
+      "name": "Hähnchenbrustfilet",
+      "slug": "hahnchenbrustfilet",
+      "description": null,
+      "internalName": null,
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/56c597a2fd2cb93b428b456b-f3c13014.png",
+      "imagePath": "/ingredient/56c597a2fd2cb93b428b456b-f3c13014.png",
+      "usage": 1054,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fb6b",
+        "type": "chicken",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb6b-8f15f243.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb6b-8f15f243.png",
+        "usageByCountry":
+        {
+          "AO": 258,
+          "AT": 1720,
+          "AU": 1261,
+          "BE": 545,
+          "CA": 809,
+          "CG": 0,
+          "CH": 818,
+          "CK": 240,
+          "DE": 1595,
+          "DK": 254,
+          "ER": 805,
+          "FJ": 277,
+          "FR": 425,
+          "GB": 1388,
+          "GN": 85,
+          "IT": 37,
+          "LU": 595,
+          "MR": 0,
+          "NL": 536,
+          "NO": 86,
+          "NZ": 774,
+          "SE": 324,
+          "US": 1726
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:30+00:00",
+        "uuid": "4223c63e-b2be-528b-a00a-2079bca36885",
+        "name": "Hähnchen",
+        "slug": "Hähnchen"
+      },
+      "uuid": "12b95071-1eac-5297-b6fc-3cffa911cfc5"
+    },
+    {
+      "country": "DE",
+      "id": "5f242fa4ba2f2c29c719e376",
+      "type": "honig-senf-dressing",
+      "name": "Honig-Senf-Dressing",
+      "slug": "honig-senf-dressing",
+      "description": "Honig-Senf-Dressing",
+      "internalName": "Honig-Senf-Dressing",
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5f242fa4ba2f2c29c719e376-ece45f60.png",
+      "imagePath": "/ingredient/5f242fa4ba2f2c29c719e376-ece45f60.png",
+      "usage": 53,
+      "hasDuplicatedName": null,
+      "allergens":
+      [
+        "57962a07b7e8697d4b3052fd"
+      ],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fb8f",
+        "type": "dressing",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb8f-2e1bc6b6.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb8f-2e1bc6b6.png",
+        "usageByCountry":
+        {
+          "AO": 0,
+          "AT": 200,
+          "AU": 169,
+          "BE": 0,
+          "CA": 1,
+          "CG": 0,
+          "CH": 60,
+          "CK": 0,
+          "DE": 161,
+          "DK": 58,
+          "ER": 48,
+          "FJ": 3,
+          "FR": 0,
+          "GB": 35,
+          "GN": 3,
+          "IT": 1,
+          "LU": 0,
+          "MR": 0,
+          "NL": 0,
+          "NO": 27,
+          "NZ": 114,
+          "SE": 61,
+          "US": 129
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:30+00:00",
+        "uuid": "8b8d62cc-f621-5fa1-9591-056b78bc336d",
+        "name": "Dressing",
+        "slug": "Dressing"
+      },
+      "uuid": "5b338f9c-40bd-5fbc-84c9-d2b149278545"
+    },
+    {
+      "country": "DE",
+      "id": "554b1bf6f8b25eef3e8b4570",
+      "type": "ol-100ml",
+      "name": "Öl*",
+      "slug": "ol",
+      "description": null,
+      "internalName": null,
+      "shipped": false,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b1bf6f8b25eef3e8b4570.png",
+      "imagePath": "/image/554b1bf6f8b25eef3e8b4570.png",
+      "usage": 6713,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fbe8",
+        "type": "oil",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbe8-34c502d3.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbe8-34c502d3.png",
+        "usageByCountry":
+        {
+          "AO": 0,
+          "AT": 10860,
+          "AU": 159,
+          "BE": 3379,
+          "CA": 3428,
+          "CG": 0,
+          "CH": 4737,
+          "CK": 1386,
+          "DE": 9665,
+          "DK": 0,
+          "ER": 1972,
+          "FJ": 27,
+          "FR": 1629,
+          "GB": 279,
+          "GN": 0,
+          "IT": 0,
+          "LU": 5311,
+          "MR": 0,
+          "NL": 3846,
+          "NO": 19,
+          "NZ": 20,
+          "SE": 235,
+          "US": 3337
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:32+00:00",
+        "uuid": "40e34e55-5e6b-5d7d-bc35-bf898efa8c03",
+        "name": "Öl",
+        "slug": "Öl"
+      },
+      "uuid": "9de7c4fc-8da2-4fe4-87cb-00508595979a"
+    },
+    {
+      "country": "DE",
+      "id": "554b1c284dab71a9058b456b",
+      "type": "salz-100g",
+      "name": "Salz*",
+      "slug": "salz",
+      "description": null,
+      "internalName": null,
+      "shipped": false,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b1c284dab71a9058b456b.png",
+      "imagePath": "/image/554b1c284dab71a9058b456b.png",
+      "usage": 9841,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fc25",
+        "type": "salt",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc25-abd39ad0.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc25-abd39ad0.png",
+        "usageByCountry":
+        {
+          "AO": 198,
+          "AT": 11210,
+          "AU": 1433,
+          "BE": 1,
+          "CA": 1555,
+          "CG": 0,
+          "CH": 4441,
+          "CK": 412,
+          "DE": 9892,
+          "DK": 119,
+          "ER": 2403,
+          "FJ": 551,
+          "FR": 44,
+          "GB": 205,
+          "GN": 14,
+          "IT": 111,
+          "LU": 0,
+          "MR": 0,
+          "NL": 5,
+          "NO": 1,
+          "NZ": 1263,
+          "SE": 359,
+          "US": 6346
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:34+00:00",
+        "uuid": "3f408771-5872-55e3-95fb-9fc1f9b31aff",
+        "name": "Einzel Gewürz",
+        "slug": "Einzel-Gewürz"
+      },
+      "uuid": "1721f064-999a-4eb9-8ada-40148b88cc35"
+    },
+    {
+      "country": "DE",
+      "id": "55b0a135fd2cb9121e8b4567",
+      "type": "pfeffer-100g",
+      "name": "Pfeffer*",
+      "slug": "pfeffer",
+      "description": null,
+      "internalName": "Pfeffer [home]",
+      "shipped": false,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/55b0a135fd2cb9121e8b4567.png",
+      "imagePath": "/image/55b0a135fd2cb9121e8b4567.png",
+      "usage": 9515,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fc05",
+        "type": "pepper-spice",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc05-00a37cd9.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc05-00a37cd9.png",
+        "usageByCountry":
+        {
+          "AO": 0,
+          "AT": 11194,
+          "AU": 160,
+          "BE": 18,
+          "CA": 1081,
+          "CG": 0,
+          "CH": 4442,
+          "CK": 227,
+          "DE": 9882,
+          "DK": 3,
+          "ER": 2413,
+          "FJ": 718,
+          "FR": 20,
+          "GB": 270,
+          "GN": 8,
+          "IT": 111,
+          "LU": 725,
+          "MR": 0,
+          "NL": 5,
+          "NO": 0,
+          "NZ": 72,
+          "SE": 4,
+          "US": 6367
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:33+00:00",
+        "uuid": "1a4ca769-9a3a-5784-947b-31ea6b9b05ae",
+        "name": "Pfeffer",
+        "slug": "Pfeffer"
+      },
+      "uuid": "18289a1e-99c0-4a85-b947-2e2de39d452a"
+    },
+    {
+      "country": "DE",
+      "id": "554b2abcf8b25eef3e8b4573",
+      "type": "rote zwiebel",
+      "name": "rote Zwiebel",
+      "slug": "rote-zwiebel",
+      "description": null,
+      "internalName": null,
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b2abcf8b25eef3e8b4573.png",
+      "imagePath": "/image/554b2abcf8b25eef3e8b4573.png",
+      "usage": 2055,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fbee",
+        "type": "onion",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbee-34de32d5.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbee-34de32d5.png",
+        "usageByCountry":
+        {
+          "AO": 309,
+          "AT": 5741,
+          "AU": 2451,
+          "BE": 1048,
+          "CA": 2239,
+          "CG": 0,
+          "CH": 2373,
+          "CK": 1058,
+          "DE": 5151,
+          "DK": 757,
+          "ER": 1532,
+          "FJ": 867,
+          "FR": 1542,
+          "GB": 4004,
+          "GN": 189,
+          "IT": 82,
+          "LU": 1625,
+          "MR": 0,
+          "NL": 1133,
+          "NO": 248,
+          "NZ": 1560,
+          "SE": 1004,
+          "US": 4939
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:32+00:00",
+        "uuid": "1a30a8a2-71bc-52c5-89fa-8184b99ce42c",
+        "name": "Zwiebel",
+        "slug": "Zwiebel"
+      },
+      "uuid": "e4ecec4b-f7e0-502b-a010-5085d5e3f1e0"
+    },
+    {
+      "country": "DE",
+      "id": "556dc4df4dab71614b8b456a",
+      "type": "feldsalat",
+      "name": "Feldsalat",
+      "slug": "feldsalat",
+      "description": null,
+      "internalName": null,
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/556dc4df4dab71614b8b456a.png",
+      "imagePath": "/image/556dc4df4dab71614b8b456a.png",
+      "usage": 200,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "type": "salad",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc22-d5b9cc88.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc22-d5b9cc88.png",
+        "usageByCountry":
+        {
+          "AO": 211,
+          "AT": 2714,
+          "AU": 1068,
+          "BE": 679,
+          "CA": 550,
+          "CG": 0,
+          "CH": 1023,
+          "CK": 19,
+          "DE": 2406,
+          "DK": 280,
+          "ER": 11,
+          "FJ": 0,
+          "FR": 546,
+          "GB": 1213,
+          "GN": 95,
+          "IT": 31,
+          "LU": 884,
+          "MR": 0,
+          "NL": 827,
+          "NO": 104,
+          "NZ": 756,
+          "SE": 356,
+          "US": 518
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:34+00:00",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "Salatmischung",
+        "slug": "Salatmischung"
+      },
+      "uuid": "94025559-797b-514a-a6eb-8b9e96d51422"
+    },
+    {
+      "country": "DE",
+      "id": "555dab5c4dab71621b8b4567",
+      "type": "kurbiskerne",
+      "name": "Kürbiskerne",
+      "slug": "kurbiskerne",
+      "description": null,
+      "internalName": null,
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/555dab5c4dab71621b8b4567.png",
+      "imagePath": "/image/555dab5c4dab71621b8b4567.png",
+      "usage": 391,
+      "hasDuplicatedName": null,
+      "allergens":
+      [
+        "57962a07b7e8697d4b3052f3"
+      ],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fc2a",
+        "type": "seeds",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc2a-b47cd032.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc2a-b47cd032.png",
+        "usageByCountry":
+        {
+          "AO": 8,
+          "AT": 721,
+          "AU": 102,
+          "BE": 240,
+          "CA": 85,
+          "CG": 0,
+          "CH": 318,
+          "CK": 37,
+          "DE": 627,
+          "DK": 44,
+          "ER": 0,
+          "FJ": 48,
+          "FR": 115,
+          "GB": 147,
+          "GN": 10,
+          "IT": 10,
+          "LU": 268,
+          "MR": 0,
+          "NL": 130,
+          "NO": 16,
+          "NZ": 64,
+          "SE": 65,
+          "US": 121
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:34+00:00",
+        "uuid": "221b86d7-5987-59eb-8542-4dad5df36917",
+        "name": "Samenmischung",
+        "slug": "Samenmischung"
+      },
+      "uuid": "e0655905-39bd-5f81-acf4-725ff33bd5e8"
+    },
+    {
+      "country": "DE",
+      "id": "554b2319fd2cb9ba598b456d",
+      "type": "zucker-100g",
+      "name": "Zucker*",
+      "slug": "zucker",
+      "description": null,
+      "internalName": "Zucker [home]",
+      "shipped": false,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b2319fd2cb9ba598b456d.png",
+      "imagePath": "/image/554b2319fd2cb9ba598b456d.png",
+      "usage": 1952,
+      "hasDuplicatedName": null,
+      "allergens":
+      [],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fc3b",
+        "type": "sugar",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc3b-20b617ed.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc3b-20b617ed.png",
+        "usageByCountry":
+        {
+          "AO": 170,
+          "AT": 2318,
+          "AU": 975,
+          "BE": 615,
+          "CA": 1238,
+          "CG": 0,
+          "CH": 760,
+          "CK": 354,
+          "DE": 2151,
+          "DK": 127,
+          "ER": 38,
+          "FJ": 54,
+          "FR": 516,
+          "GB": 440,
+          "GN": 41,
+          "IT": 18,
+          "LU": 931,
+          "MR": 0,
+          "NL": 732,
+          "NO": 1,
+          "NZ": 784,
+          "SE": 284,
+          "US": 72
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:34+00:00",
+        "uuid": "6f31f49a-e368-5bbc-b82e-9e801b957293",
+        "name": "Einzel Gewürz",
+        "slug": "Einzel-Gewürz"
+      },
+      "uuid": "b8591de6-da41-4331-9311-e34b469b060b"
+    },
+    {
+      "country": "DE",
+      "id": "5566ea88fd2cb9e57f8b4569",
+      "type": "senf, körnig",
+      "name": "körniger Senf",
+      "slug": "senf-kornig",
+      "description": null,
+      "internalName": "Senf, körnig",
+      "shipped": true,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/5566ea88fd2cb9e57f8b4569.png",
+      "imagePath": "/image/5566ea88fd2cb9e57f8b4569.png",
+      "usage": 234,
+      "hasDuplicatedName": null,
+      "allergens":
+      [
+        "57962a07b7e8697d4b3052fd"
+      ],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fbdf",
+        "type": "mustard",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbdf-bd28b3fe.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbdf-bd28b3fe.png",
+        "usageByCountry":
+        {
+          "AO": 32,
+          "AT": 1713,
+          "AU": 313,
+          "BE": 998,
+          "CA": 486,
+          "CG": 0,
+          "CH": 732,
+          "CK": 167,
+          "DE": 1543,
+          "DK": 59,
+          "ER": 184,
+          "FJ": 33,
+          "FR": 605,
+          "GB": 326,
+          "GN": 32,
+          "IT": 6,
+          "LU": 1477,
+          "MR": 0,
+          "NL": 1083,
+          "NO": 18,
+          "NZ": 162,
+          "SE": 81,
+          "US": 462
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:32+00:00",
+        "uuid": "0ea834fb-414e-5a5e-9a21-78dfb810042b",
+        "name": "Senf",
+        "slug": "Senf"
+      },
+      "uuid": "a3e6577b-5883-5f7d-819a-3516e0d13556"
+    },
+    {
+      "country": "DE",
+      "id": "554b2288f8b25ef93e8b456c",
+      "type": "butter-100g",
+      "name": "Butter*",
+      "slug": "butter",
+      "description": null,
+      "internalName": "Butter [home]",
+      "shipped": false,
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/554b2288f8b25ef93e8b456c-10f3c76d.png",
+      "imagePath": "/ingredient/554b2288f8b25ef93e8b456c-10f3c76d.png",
+      "usage": 1219,
+      "hasDuplicatedName": null,
+      "allergens":
+      [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family":
+      {
+        "id": "58877cf3ed71a76e9c03fb5b",
+        "type": "butter",
+        "description": null,
+        "priority": 0,
+        "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb5b-10d0b09a.png",
+        "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb5b-10d0b09a.png",
+        "usageByCountry":
+        {
+          "AO": 537,
+          "AT": 2397,
+          "AU": 1493,
+          "BE": 2689,
+          "CA": 1117,
+          "CG": 0,
+          "CH": 968,
+          "CK": 631,
+          "DE": 2176,
+          "DK": 383,
+          "ER": 2010,
+          "FJ": 271,
+          "FR": 1530,
+          "GB": 466,
+          "GN": 85,
+          "IT": 25,
+          "LU": 4050,
+          "MR": 0,
+          "NL": 3078,
+          "NO": 135,
+          "NZ": 1464,
+          "SE": 469,
+          "US": 3943
+        },
+        "createdAt": "2017-01-24T16:12:35+00:00",
+        "updatedAt": "2020-11-19T15:34:30+00:00",
+        "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
+        "name": "Butter",
+        "slug": "Butter"
+      },
+      "uuid": "879a03f1-e724-474a-82d2-933d63e8e21a"
+    }
+  ],
+  "allergens":
+  [
+    {
+      "id": "57962a07b7e8697d4b3052fc",
+      "type": "celery",
+      "description": null,
+      "tracesOf": false,
+      "triggersTracesOf": false,
+      "iconLink": null,
+      "iconPath": null,
+      "usage": 128,
+      "name": "Sellerie oder Sellerieerzeugnisse",
+      "slug": "sellerie-oder-sellerieerzeugnisse"
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "type": "milk",
+      "description": null,
+      "tracesOf": false,
+      "triggersTracesOf": false,
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "usage": 1018,
+      "name": "Milch oder Milcherzeugnisse (einschließlich Laktose)",
+      "slug": "milch-oder-milcherzeugnisse-einschlieszlich-laktose"
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fd",
+      "type": "mustard",
+      "description": null,
+      "tracesOf": false,
+      "triggersTracesOf": false,
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "usage": 158,
+      "name": "Senf",
+      "slug": "senf"
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "type": "maycontaintracesofallergens",
+      "description": null,
+      "tracesOf": false,
+      "triggersTracesOf": true,
+      "iconLink": null,
+      "iconPath": null,
+      "usage": 1649,
+      "name": "kann Spuren von Allergenen enthalten",
+      "slug": "kann-spuren-von-allergenen-enthalten"
+    }
+  ],
+  "utensils":
+  [
+    {
+      "id": "57e2674fb7e8697d4b305382",
+      "type": "strainer",
+      "name": "Sieb"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305393",
+      "type": "potato-masher",
+      "name": "Kartoffelstampfer"
+    },
+    {
+      "id": "57e2674fb7e8697d4b3053a1",
+      "type": "smallpot",
+      "name": "Kleiner Topf"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305372",
+      "type": "largebowl",
+      "name": "Große Schüssel"
+    }
+  ],
+  "tags":
+  [
+    {
+      "id": "5f3d275290f179774d7953bc",
+      "type": "naturally-gluten-free",
+      "iconLink": null,
+      "iconPath": null,
+      "numberOfRecipes": 2630,
+      "numberOfRecipesByCountry":
+      {
+        "AO": 0,
+        "AT": 1170,
+        "AU": 0,
+        "BE": 0,
+        "CA": 0,
+        "CG": 0,
+        "CH": 408,
+        "CK": 0,
+        "DE": 1052,
+        "DK": 0,
+        "ER": 0,
+        "FJ": 0,
+        "FR": 0,
+        "GB": 0,
+        "GN": 0,
+        "IT": 0,
+        "LU": 0,
+        "MR": 0,
+        "NL": 0,
+        "NO": 0,
+        "NZ": 0,
+        "SE": 0,
+        "US": 0
+      },
+      "colorHandle": "glutenFree",
+      "preferences":
+      [
+        "Balance"
+      ],
+      "name": "Ohne Weizen",
+      "slug": "ohne-weizen",
+      "displayLabel": true
+    }
+  ],
+  "cuisines":
+  [
+    {
+      "id": "57ebbc17b7e8697d4b3053b5",
+      "type": "german",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b5-91d543c1.jpg",
+      "iconPath": "/cuisines/57ebbc17b7e8697d4b3053b5-91d543c1.jpg",
+      "usage": 4999,
+      "name": "Deutsch",
+      "slug": "deutsch"
+    }
+  ],
+  "wines":
+  [],
+  "marketplaceItems":
+  [],
+  "author": "kurbis-special",
+  "label":
+  {
+    "text": "Kürbis-Special",
+    "handle": "kurbis-special",
+    "backgroundColor": "#b980d0",
+    "foregroundColor": "#FFFFFF"
+  },
+  "yieldType": "0",
+  "yields":
+  [
+    {
+      "yields": 2,
+      "ingredients":
+      [
+        {
+          "id": "55cb734f4dab71420d8b4568",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "id": "58da10324f78db45e7284f92",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "id": "5553490f4dab71893e8b456c",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "56c597a2fd2cb93b428b456b",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": "5f242fa4ba2f2c29c719e376",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "id": "554b1bf6f8b25eef3e8b4570",
+          "amount": 1,
+          "unit": "Esslöffel"
+        },
+        {
+          "id": "554b1c284dab71a9058b456b",
+          "amount": null,
+          "unit": "nach Geschmack"
+        },
+        {
+          "id": "55b0a135fd2cb9121e8b4567",
+          "amount": null,
+          "unit": "nach Geschmack"
+        },
+        {
+          "id": "554b2abcf8b25eef3e8b4573",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "id": "556dc4df4dab71614b8b456a",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "id": "555dab5c4dab71621b8b4567",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "id": "554b2319fd2cb9ba598b456d",
+          "amount": 0.5,
+          "unit": "Teelöffel"
+        },
+        {
+          "id": "5566ea88fd2cb9e57f8b4569",
+          "amount": 17,
+          "unit": "g"
+        },
+        {
+          "id": "554b2288f8b25ef93e8b456c",
+          "amount": 1,
+          "unit": "Teelöffel"
+        }
+      ]
+    },
+    {
+      "yields": 3,
+      "ingredients":
+      [
+        {
+          "id": "55cb734f4dab71420d8b4568",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "id": "58da10324f78db45e7284f92",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "id": "5553490f4dab71893e8b456c",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": "56c597a2fd2cb93b428b456b",
+          "amount": 375,
+          "unit": "g"
+        },
+        {
+          "id": "5f242fa4ba2f2c29c719e376",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "554b1bf6f8b25eef3e8b4570",
+          "amount": 1.5,
+          "unit": "Esslöffel"
+        },
+        {
+          "id": "554b1c284dab71a9058b456b",
+          "amount": null,
+          "unit": "nach Geschmack"
+        },
+        {
+          "id": "55b0a135fd2cb9121e8b4567",
+          "amount": null,
+          "unit": "nach Geschmack"
+        },
+        {
+          "id": "554b2abcf8b25eef3e8b4573",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "id": "556dc4df4dab71614b8b456a",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "555dab5c4dab71621b8b4567",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "id": "554b2319fd2cb9ba598b456d",
+          "amount": 0.75,
+          "unit": "Teelöffel"
+        },
+        {
+          "id": "5566ea88fd2cb9e57f8b4569",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "id": "554b2288f8b25ef93e8b456c",
+          "amount": 1.5,
+          "unit": "Teelöffel"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients":
+      [
+        {
+          "id": "55cb734f4dab71420d8b4568",
+          "amount": 1,
+          "unit": "Stück"
+        },
+        {
+          "id": "58da10324f78db45e7284f92",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "id": "5553490f4dab71893e8b456c",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "56c597a2fd2cb93b428b456b",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "5f242fa4ba2f2c29c719e376",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "554b1bf6f8b25eef3e8b4570",
+          "amount": 2,
+          "unit": "Esslöffel"
+        },
+        {
+          "id": "554b1c284dab71a9058b456b",
+          "amount": null,
+          "unit": "nach Geschmack"
+        },
+        {
+          "id": "55b0a135fd2cb9121e8b4567",
+          "amount": null,
+          "unit": "nach Geschmack"
+        },
+        {
+          "id": "554b2abcf8b25eef3e8b4573",
+          "amount": 2,
+          "unit": "Stück"
+        },
+        {
+          "id": "556dc4df4dab71614b8b456a",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": "555dab5c4dab71621b8b4567",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "id": "554b2319fd2cb9ba598b456d",
+          "amount": 1,
+          "unit": "Teelöffel"
+        },
+        {
+          "id": "5566ea88fd2cb9e57f8b4569",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "id": "554b2288f8b25ef93e8b456c",
+          "amount": 2,
+          "unit": "Teelöffel"
+        }
+      ]
+    }
+  ],
+  "steps":
+  [
+    {
+      "index": 1,
+      "instructionsMarkdown": "**Bitte beachte die Informationen zu Inhaltsstoffen und Allergenen auf dem Produktetikett.**\n\nIn einem großen Topf reichlich Wasser mit Gemüsebrühe und Salz\\* erhitzen. Kürbis vierteln und Kerne mit einem Löffel herauskratzen. Kürbis in ca. 2 cm große Würfel schneiden. Kürbiswürfel in den Topf geben und 10 – 12 Min. kochen, bis der Kürbis weich ist. Inzwischen mit dem Rezept fortfahren.",
+      "instructionsHTML": "<p><strong>Bitte beachte die Informationen zu Inhaltsstoffen und Allergenen auf dem Produktetikett.</strong></p>\n<p>In einem großen Topf reichlich Wasser mit Gemüsebrühe und Salz* erhitzen. Kürbis vierteln und Kerne mit einem Löffel herauskratzen. Kürbis in ca. 2 cm große Würfel schneiden. Kürbiswürfel in den Topf geben und 10 – 12 Min. kochen, bis der Kürbis weich ist. Inzwischen mit dem Rezept fortfahren.</p>",
+      "instructions": "Bitte beachte die Informationen zu Inhaltsstoffen und Allergenen auf dem Produktetikett.\nIn einem großen Topf reichlich Wasser mit Gemüsebrühe und Salz* erhitzen. Kürbis vierteln und Kerne mit einem Löffel herauskratzen. Kürbis in ca. 2 cm große Würfel schneiden. Kürbiswürfel in den Topf geben und 10 – 12 Min. kochen, bis der Kürbis weich ist. Inzwischen mit dem Rezept fortfahren.",
+      "timers":
+      [],
+      "images":
+      [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61508a0dcc9f2a786e62b22f/step-76ca5630.jpg",
+          "path": "/61508a0dcc9f2a786e62b22f/step-76ca5630.jpg",
+          "caption": "Kürbis kochen"
+        }
+      ],
+      "videos":
+      [],
+      "ingredients":
+      [
+        "55cb734f4dab71420d8b4568",
+        "58da10324f78db45e7284f92"
+      ],
+      "utensils":
+      []
+    },
+    {
+      "index": 2,
+      "instructionsMarkdown": "Zwiebel halbieren, abziehen und in dünne Ringe schneiden. Kürbiskerne in einer großen Pfanne ohne Fettzugabe 1 – 2 Min. rösten, bis sie bräunen und beginnen aufzuplatzen. Herausnehmen. In der Pfanne 1 EL [1.5 EL | 2 EL] Öl\\* erhitzen. Zwiebelstreifen mit 0.5 TL [0.75 TL | 1 TL] Zucker\\* darin 4 – 6 Min. karamellisieren. Herausnehmen.",
+      "instructionsHTML": "<p>Zwiebel halbieren, abziehen und in dünne Ringe schneiden. Kürbiskerne in einer großen Pfanne ohne Fettzugabe 1 – 2 Min. rösten, bis sie bräunen und beginnen aufzuplatzen. Herausnehmen. In der Pfanne 1 EL [1.5 EL | 2 EL] Öl* erhitzen. Zwiebelstreifen mit 0.5 TL [0.75 TL | 1 TL] Zucker* darin 4 – 6 Min. karamellisieren. Herausnehmen.</p>",
+      "instructions": "Zwiebel halbieren, abziehen und in dünne Ringe schneiden. Kürbiskerne in einer großen Pfanne ohne Fettzugabe 1 – 2 Min. rösten, bis sie bräunen und beginnen aufzuplatzen. Herausnehmen. In der Pfanne 1 EL [1.5 EL | 2 EL] Öl* erhitzen. Zwiebelstreifen mit 0.5 TL [0.75 TL | 1 TL] Zucker* darin 4 – 6 Min. karamellisieren. Herausnehmen.",
+      "timers":
+      [],
+      "images":
+      [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61508a0dcc9f2a786e62b22f/step-87f1783b.jpg",
+          "path": "/61508a0dcc9f2a786e62b22f/step-87f1783b.jpg",
+          "caption": "Zwiebeln karamelliesieren"
+        }
+      ],
+      "videos":
+      [],
+      "ingredients":
+      [
+        "554b2abcf8b25eef3e8b4573",
+        "555dab5c4dab71621b8b4567"
+      ],
+      "utensils":
+      []
+    },
+    {
+      "index": 3,
+      "instructionsMarkdown": "Hähnchenbrustfilets mit 2 EL [3 EL | 4 EL] Honig-Senf-Dressing rundherum einstreichen. Hähnchenbrustfilets in die Pfanne geben und von jeder Seite 2 – 3 Min. anbraten, bis sie gut gebräunt sind. Dann Hitze reduzieren, Deckel auflegen und Hähnchen bei mittlerer Hitze 8 – 10 Min. garen, bis das Fleisch innen nicht mehr rosa ist.",
+      "instructionsHTML": "<p>Hähnchenbrustfilets mit 2 EL [3 EL | 4 EL] Honig-Senf-Dressing rundherum einstreichen. Hähnchenbrustfilets in die Pfanne geben und von jeder Seite 2 – 3 Min. anbraten, bis sie gut gebräunt sind. Dann Hitze reduzieren, Deckel auflegen und Hähnchen bei mittlerer Hitze 8 – 10 Min. garen, bis das Fleisch innen nicht mehr rosa ist.</p>",
+      "instructions": "Hähnchenbrustfilets mit 2 EL [3 EL | 4 EL] Honig-Senf-Dressing rundherum einstreichen. Hähnchenbrustfilets in die Pfanne geben und von jeder Seite 2 – 3 Min. anbraten, bis sie gut gebräunt sind. Dann Hitze reduzieren, Deckel auflegen und Hähnchen bei mittlerer Hitze 8 – 10 Min. garen, bis das Fleisch innen nicht mehr rosa ist.",
+      "timers":
+      [],
+      "images":
+      [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61508a0dcc9f2a786e62b22f/step-e0c2f0f7.jpg",
+          "path": "/61508a0dcc9f2a786e62b22f/step-e0c2f0f7.jpg",
+          "caption": "Hähnchen braten"
+        }
+      ],
+      "videos":
+      [],
+      "ingredients":
+      [
+        "56c597a2fd2cb93b428b456b",
+        "5f242fa4ba2f2c29c719e376"
+      ],
+      "utensils":
+      []
+    },
+    {
+      "index": 4,
+      "instructionsMarkdown": "Wenn der Kürbis weich ist, durch ein Sieb gießen und sofort zurück in den Topf geben. 2 EL [3 EL | 4 EL] Kochsahne und nach Belieben 1 TL [1,5 TL | 2 TL] Butter\\* hinzugeben und mit einem Kartoffelstampfer zu einem Püree stampfen. Mit Salz\\* und Pfeffer\\* abschmecken.",
+      "instructionsHTML": "<p>Wenn der Kürbis weich ist, durch ein Sieb gießen und sofort zurück in den Topf geben. 2 EL [3 EL | 4 EL] Kochsahne und nach Belieben 1 TL [1,5 TL | 2 TL] Butter* hinzugeben und mit einem Kartoffelstampfer zu einem Püree stampfen. Mit Salz* und Pfeffer* abschmecken.</p>",
+      "instructions": "Wenn der Kürbis weich ist, durch ein Sieb gießen und sofort zurück in den Topf geben. 2 EL [3 EL | 4 EL] Kochsahne und nach Belieben 1 TL [1,5 TL | 2 TL] Butter* hinzugeben und mit einem Kartoffelstampfer zu einem Püree stampfen. Mit Salz* und Pfeffer* abschmecken.",
+      "timers":
+      [],
+      "images":
+      [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61508a0dcc9f2a786e62b22f/step-be1954a7.jpg",
+          "path": "/61508a0dcc9f2a786e62b22f/step-be1954a7.jpg",
+          "caption": "Püree zubereiten"
+        }
+      ],
+      "videos":
+      [],
+      "ingredients":
+      [
+        "5553490f4dab71893e8b456c"
+      ],
+      "utensils":
+      [
+        "57e2674fb7e8697d4b305382",
+        "57e2674fb7e8697d4b305393"
+      ]
+    },
+    {
+      "index": 5,
+      "instructionsMarkdown": "In einem kleinen Topf restliche Kochsahne mit 1 EL [1.5 EL | 2 EL] Honig-Senf-Dressing und dem körnigen Senf erhitzen und 2 – 3 Min. köcheln lassen, bis die Soße etwas eindickt. Mit Salz\\* und Pfeffer\\* abschmecken. In einer großen Schüssel Feldsalat mit den karamellisierten Zwiebelringen und dem restlichen Honig-Senf-Dressing mischen. Mit Salz\\* und Pfeffer\\* abschmecken.",
+      "instructionsHTML": "<p>In einem kleinen Topf restliche Kochsahne mit 1 EL [1.5 EL | 2 EL] Honig-Senf-Dressing und dem körnigen Senf erhitzen und 2 – 3 Min. köcheln lassen, bis die Soße etwas eindickt. Mit Salz* und Pfeffer* abschmecken. In einer großen Schüssel Feldsalat mit den karamellisierten Zwiebelringen und dem restlichen Honig-Senf-Dressing mischen. Mit Salz* und Pfeffer* abschmecken.</p>",
+      "instructions": "In einem kleinen Topf restliche Kochsahne mit 1 EL [1.5 EL | 2 EL] Honig-Senf-Dressing und dem körnigen Senf erhitzen und 2 – 3 Min. köcheln lassen, bis die Soße etwas eindickt. Mit Salz* und Pfeffer* abschmecken. In einer großen Schüssel Feldsalat mit den karamellisierten Zwiebelringen und dem restlichen Honig-Senf-Dressing mischen. Mit Salz* und Pfeffer* abschmecken.",
+      "timers":
+      [],
+      "images":
+      [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61508a0dcc9f2a786e62b22f/step-ecc44f98.jpg",
+          "path": "/61508a0dcc9f2a786e62b22f/step-ecc44f98.jpg",
+          "caption": "Salat & Soße zubereiten"
+        }
+      ],
+      "videos":
+      [],
+      "ingredients":
+      [
+        "556dc4df4dab71614b8b456a",
+        "5566ea88fd2cb9e57f8b4569"
+      ],
+      "utensils":
+      [
+        "57e2674fb7e8697d4b3053a1",
+        "57e2674fb7e8697d4b305372"
+      ]
+    },
+    {
+      "index": 6,
+      "instructionsMarkdown": "Hähnchenbrustfilets mit Kürbispüree und Feldsalat auf Teller verteilen. Mit Kürbiskernen toppen und mit der Senfsoße genießen. Guten Appetit!",
+      "instructionsHTML": "<p>Hähnchenbrustfilets mit Kürbispüree und Feldsalat auf Teller verteilen. Mit Kürbiskernen toppen und mit der Senfsoße genießen. Guten Appetit!</p>",
+      "instructions": "Hähnchenbrustfilets mit Kürbispüree und Feldsalat auf Teller verteilen. Mit Kürbiskernen toppen und mit der Senfsoße genießen. Guten Appetit!",
+      "timers":
+      [],
+      "images":
+      [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/61508a0dcc9f2a786e62b22f/step-ab703df0.jpg",
+          "path": "/61508a0dcc9f2a786e62b22f/step-ab703df0.jpg",
+          "caption": "Anrichten"
+        }
+      ],
+      "videos":
+      [],
+      "ingredients":
+      [],
+      "utensils":
+      []
+    }
+  ],
+  "averageRating": null,
+  "ratingsCount": null,
+  "favoritesCount": 261,
+  "active": true,
+  "highlighted": false,
+  "isDinnerToLunch": false,
+  "isExcludedFromIndex": false,
+  "isPremium": false,
+  "websiteUrl": "https://www.hellofresh.de/recipes/honig-senf-hahnchen-mit-kurbispuree-61508a0dcc9f2a786e62b22f",
+  "clonedFrom": "5f7d89e1214de068b1561f99",
+  "canonical": "61508a1015e2bd69655068c5",
+  "canonicalLink": "https://www.hellofresh.de/recipes/honig-senf-hahnchen-mit-kurbispuree-thermomix-61508a1015e2bd69655068c5",
+  "promotion": null
+}
