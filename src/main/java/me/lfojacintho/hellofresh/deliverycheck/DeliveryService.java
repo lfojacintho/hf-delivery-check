@@ -73,42 +73,6 @@ public class DeliveryService {
 
         return deliveryBuilder.build();
 
-//        System.out.println();
-//        System.out.println("The following ingredients should be delivered");
-//
-//        final Map<String, IngredientInfo> ingredientsMap = new LinkedHashMap<>();
-//        mealDtos.forEach(mealDto -> {
-//            final RecipeDto recipeDto = fetchIngredients(mealDto.getRecipe().getId());
-//            final List<IngredientDto> ingredients = recipeDto.getShippedIngredients();
-//            final YieldDto yieldDto =
-//                recipeDto.getYields().stream().filter(y -> y.getYields() == 2).findFirst().get();
-//
-//            ingredients.forEach(ingredientDto -> {
-////                final IngredientInfo ingredientInfo = ingredientsMap.computeIfAbsent(
-////                    ingredientDto.getId(),
-////                    v -> new IngredientInfo(ingredientDto.getId(), ingredientDto.getName())
-////                );
-//                final Optional<IngredientAmountDto> maybeYieldIngredient = yieldDto.getIngredients().stream()
-//                    .filter(ingredientAmountDto -> ingredientDto.getId().equals(ingredientAmountDto.getId()))
-//                    .findFirst();
-//
-//                if (maybeYieldIngredient.isEmpty()) {
-//                    System.err.println(">>> Quantity not found for " + ingredientDto.getName());
-//                } else {
-////                    final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
-////                    ingredientInfo.addQuantityInfo(new QuantityInfo(
-////                        mealDto.getIndex(),
-////                        yieldIngredient.getAmount(),
-////                        yieldIngredient.getUnit()
-////                    ));
-//                }
-//            });
-//        });
-//
-//        ingredientsMap.values().forEach(value -> System.out.printf(
-//            "  %s",
-//            value
-//        ));
     }
 
     private List<MealDto> fetchSelectedMeals() {
