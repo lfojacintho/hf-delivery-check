@@ -2,30 +2,19 @@ package me.lfojacintho.hellofresh.deliverycheck.client;
 
 import me.lfojacintho.hellofresh.deliverycheck.client.dto.menu.MenuDto;
 import me.lfojacintho.hellofresh.deliverycheck.client.dto.recipe.RecipeDto;
+import me.lfojacintho.hellofresh.deliverycheck.util.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.DynamicPropertyRegistry;
-import org.springframework.test.context.DynamicPropertySource;
 
-import static me.lfojacintho.hellofresh.deliverycheck.client.WireMockTestExtension.getWireMockServer;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@SpringBootTest
-@ExtendWith(WireMockTestExtension.class)
-class HelloFreshClientIT {
+class HelloFreshClientIT extends AbstractIntegrationTest {
 
     private final HelloFreshClient helloFreshClient;
 
     @Autowired
     public HelloFreshClientIT(final HelloFreshClient helloFreshClient) {
         this.helloFreshClient = helloFreshClient;
-    }
-
-    @DynamicPropertySource
-    static void applicationPropertiesOverride(final DynamicPropertyRegistry registry) {
-        registry.add("wiremock-port", getWireMockServer()::port);
     }
 
     @Test

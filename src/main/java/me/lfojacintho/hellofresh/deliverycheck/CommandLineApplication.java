@@ -8,6 +8,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
+import java.time.temporal.ChronoField;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -26,7 +28,7 @@ public class CommandLineApplication implements CommandLineRunner {
 
     @Override
     public void run(final String... args) {
-        final Delivery delivery = deliveryService.retrieveDelivery();
+        final Delivery delivery = deliveryService.retrieveDelivery(getCurrentWeek());
         final Map<String, List<Quantity>> nonDeliveredIngredientMap = new LinkedHashMap<>();
 
         System.out.println("Your delivery contains the following recipes:");
@@ -73,6 +75,11 @@ public class CommandLineApplication implements CommandLineRunner {
             quantity.amount(),
             quantity.unit()
         )));
+    }
+
+    private String getCurrentWeek() {
+        final LocalDate today = LocalDate.now();
+        return String.format("%d-W%d", today.getYear(), today.get(ChronoField.ALIGNED_WEEK_OF_YEAR));
     }
 
     private void aggregateNonDeliveredIngredients(

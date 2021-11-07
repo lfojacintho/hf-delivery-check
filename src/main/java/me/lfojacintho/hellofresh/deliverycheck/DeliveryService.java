@@ -13,8 +13,6 @@ import me.lfojacintho.hellofresh.deliverycheck.domain.Quantity;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Recipe;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.temporal.ChronoField;
 import java.util.List;
 import java.util.Optional;
 
@@ -32,8 +30,8 @@ public class DeliveryService {
         this.productConfiguration = productConfiguration;
     }
 
-    public Delivery retrieveDelivery() {
-        final List<MealDto> mealDtos = fetchSelectedMeals();
+    public Delivery retrieveDelivery(final String week) {
+        final List<MealDto> mealDtos = fetchSelectedMeals(week);
         final Delivery.DeliveryBuilder deliveryBuilder = Delivery.DeliveryBuilder.builder();
 
         mealDtos.forEach(mealDto -> {
@@ -76,12 +74,9 @@ public class DeliveryService {
         return deliveryBuilder.build();
     }
 
-    private List<MealDto> fetchSelectedMeals() {
-        return client.fetchMenu(getCurrentWeek()).getSelectedMeals();
+    private List<MealDto> fetchSelectedMeals(final String week) {
+        return client.fetchMenu(week).getSelectedMeals();
     }
 
-    private String getCurrentWeek() {
-        final LocalDate today = LocalDate.now();
-        return String.format("%d-W%d", today.getYear(), today.get(ChronoField.ALIGNED_WEEK_OF_YEAR));
-    }
+
 }

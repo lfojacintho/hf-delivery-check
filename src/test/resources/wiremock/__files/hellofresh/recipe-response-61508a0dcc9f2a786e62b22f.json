@@ -1081,11 +1081,6 @@
           "unit": "Stück"
         },
         {
-          "id": "556dc4df4dab71614b8b456a",
-          "amount": 75,
-          "unit": "g"
-        },
-        {
           "id": "555dab5c4dab71621b8b4567",
           "amount": 10,
           "unit": "g"
@@ -1157,11 +1152,6 @@
           "unit": "Stück"
         },
         {
-          "id": "556dc4df4dab71614b8b456a",
-          "amount": 100,
-          "unit": "g"
-        },
-        {
           "id": "555dab5c4dab71621b8b4567",
           "amount": 20,
           "unit": "g"
@@ -1231,11 +1221,6 @@
           "id": "554b2abcf8b25eef3e8b4573",
           "amount": 2,
           "unit": "Stück"
-        },
-        {
-          "id": "556dc4df4dab71614b8b456a",
-          "amount": 150,
-          "unit": "g"
         },
         {
           "id": "555dab5c4dab71621b8b4567",
