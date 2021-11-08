@@ -14,21 +14,21 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlMatching;
 
 public class WireMockTestExtension implements BeforeAllCallback, AfterAllCallback {
 
-    private static final WireMockServer WIRE_MOCK_SERVER;
+    private final WireMockServer wireMockServer;
 
-    static {
-        WIRE_MOCK_SERVER = new WireMockServer(
+    public WireMockTestExtension() {
+        wireMockServer = new WireMockServer(
             WireMockConfiguration.options()
                 .usingFilesUnderClasspath("wiremock")
                 .extensions(new ResponseTemplateTransformer(true))
-                .dynamicPort()
+                .port(9876)
         );
     }
 
     @Override
-    public void beforeAll(final ExtensionContext context) throws Exception {
-        WIRE_MOCK_SERVER.start();
-        WIRE_MOCK_SERVER.stubFor(get(urlEqualTo(
+    public void beforeAll(final ExtensionContext context) {
+        wireMockServer.start();
+        wireMockServer.stubFor(get(urlEqualTo(
             "/gw/my-deliveries/menu?locale=de-DE&product-sku=DE-CBT1-2-3-0&servings=2&subscription=12&week=2021-W45"))
             .willReturn(aResponse()
                 .withHeader("Content-Type", "application/json; charset=utf-8")
@@ -36,7 +36,7 @@ public class WireMockTestExtension implements BeforeAllCallback, AfterAllCallbac
                 .withBodyFile("/hellofresh/menu-response-200.json")
             ));
 
-        WIRE_MOCK_SERVER.stubFor(get(urlMatching("/gw/recipes/recipes/([a-z0-9]+)\\?country=DE&locale=de-DE"))
+        wireMockServer.stubFor(get(urlMatching("/gw/recipes/recipes/([a-z0-9]+)\\?country=DE&locale=de-DE"))
             .willReturn(aResponse()
                 .withHeader("Content-Type", "application/json; charset=utf-8")
                 .withStatus(200)
@@ -45,17 +45,9 @@ public class WireMockTestExtension implements BeforeAllCallback, AfterAllCallbac
     }
 
     @Override
-    public void afterAll(final ExtensionContext context) throws Exception {
-        WIRE_MOCK_SERVER.resetAll();
-        WIRE_MOCK_SERVER.resetMappings();
-        WIRE_MOCK_SERVER.stop();
-    }
-
-    public static WireMockServer getWireMockServer() {
-        if (!WIRE_MOCK_SERVER.isRunning()) {
-            throw new IllegalStateException("WireMock server is not running.");
-        }
-
-        return WIRE_MOCK_SERVER;
+    public void afterAll(final ExtensionContext context) {
+        wireMockServer.resetAll();
+        wireMockServer.resetMappings();
+        wireMockServer.stop();
     }
 }
