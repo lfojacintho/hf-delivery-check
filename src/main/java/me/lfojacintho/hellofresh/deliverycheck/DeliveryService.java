@@ -35,43 +35,59 @@ public class DeliveryService {
         final Delivery.DeliveryBuilder deliveryBuilder = Delivery.DeliveryBuilder.builder();
 
         mealDtos.forEach(mealDto -> {
-            final Recipe.RecipeBuilder recipeBuilder = Recipe.RecipeBuilder.builder()
-                .withQuantity(mealDto.getSelection().getQuantity())
-                .withIndex(mealDto.getIndex())
-                .withTitle(mealDto.getRecipe().getName());
-
-            final RecipeDto recipeDto = client.fetchRecipe(mealDto.getRecipe().getId());
-            final List<IngredientDto> ingredients = recipeDto.getIngredients();
-            final YieldDto yieldDto =
-                recipeDto.getYields()
-                    .stream()
-                    .filter(y -> y.getYields() == productConfiguration.servings())
-                    .findFirst()
-                    .get();
-
-            ingredients.forEach(ingredientDto -> {
-                final Optional<IngredientAmountDto> maybeYieldIngredient = yieldDto.getIngredients().stream()
-                    .filter(ingredientAmountDto -> ingredientDto.getId().equals(ingredientAmountDto.getId()))
-                    .findFirst();
-                final Ingredient.IngredientBuilder ingredientBuilder = Ingredient.IngredientBuilder.builder()
-                    .withName(ingredientDto.getName())
-                    .withDelivered(ingredientDto.isShipped());
-
-                if (maybeYieldIngredient.isPresent()) {
-                    final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
-                    ingredientBuilder.withQuantity(Quantity.of(
-                        yieldIngredient.getAmount(),
-                        yieldIngredient.getUnit()
-                    ));
-                }
-
-                recipeBuilder.withIngredient(ingredientBuilder.build());
-            });
-
-            deliveryBuilder.withRecipe(recipeBuilder.build());
+            final Recipe recipe = retrieveRecipe(mealDto);
+            deliveryBuilder.withRecipe(recipe);
         });
 
         return deliveryBuilder.build();
+    }
+
+    private Recipe retrieveRecipe(final MealDto mealDto) {
+        final Recipe.RecipeBuilder recipeBuilder = Recipe.RecipeBuilder.builder()
+            .withQuantity(mealDto.getSelection().getQuantity())
+            .withIndex(mealDto.getIndex())
+            .withTitle(mealDto.getRecipe().getName());
+
+        final RecipeDto recipeDto = client.fetchRecipe(mealDto.getRecipe().getId());
+        final List<IngredientDto> ingredients = recipeDto.getIngredients();
+        final YieldDto yieldDto =
+            recipeDto.getYields()
+                .stream()
+                .filter(y -> y.getYields() == productConfiguration.servings())
+                .findFirst()
+                .orElse(null);
+
+        ingredients.forEach(ingredientDto -> {
+            final Ingredient ingredient = retrieveIngredient(ingredientDto, yieldDto);
+            recipeBuilder.withIngredient(ingredient);
+        });
+
+        return recipeBuilder.build();
+    }
+
+    private Ingredient retrieveIngredient(
+        final IngredientDto ingredientDto,
+        final YieldDto yieldDto
+    ) {
+        final Optional<IngredientAmountDto> maybeYieldIngredient = Optional.ofNullable(yieldDto)
+            .map(YieldDto::getIngredients)
+            .stream()
+            .flatMap(List::stream)
+            .filter(ingredientAmountDto -> ingredientDto.getId().equals(ingredientAmountDto.getId()))
+            .findFirst();
+
+        final Ingredient.IngredientBuilder ingredientBuilder = Ingredient.IngredientBuilder.builder()
+            .withName(ingredientDto.getName())
+            .withDelivered(ingredientDto.isShipped());
+
+        if (maybeYieldIngredient.isPresent()) {
+            final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
+            ingredientBuilder.withQuantity(Quantity.of(
+                yieldIngredient.getAmount(),
+                yieldIngredient.getUnit()
+            ));
+        }
+        return ingredientBuilder.build();
     }
 
     private List<MealDto> fetchSelectedMeals(final String week) {
