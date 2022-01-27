@@ -79,7 +79,7 @@ public class CommandLineApplication implements CommandLineRunner {
 
     private String getCurrentWeek() {
         final LocalDate today = LocalDate.now();
-        return String.format("%d-W%d", today.getYear(), today.get(ChronoField.ALIGNED_WEEK_OF_YEAR));
+        return String.format("%d-W%02d", today.getYear(), today.get(ChronoField.ALIGNED_WEEK_OF_YEAR));
     }
 
     private void aggregateNonDeliveredIngredients(
