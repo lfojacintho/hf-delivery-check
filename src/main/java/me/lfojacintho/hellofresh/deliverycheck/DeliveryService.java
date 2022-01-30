@@ -76,7 +76,7 @@ public class DeliveryService {
             .filter(ingredientAmountDto -> ingredientDto.getId().equals(ingredientAmountDto.getId()))
             .findFirst();
 
-        final Ingredient.IngredientBuilder ingredientBuilder = Ingredient.IngredientBuilder.builder()
+        final Ingredient.Builder ingredientBuilder = new Ingredient.Builder()
             .withName(ingredientDto.getName())
             .withDelivered(ingredientDto.getShipped());
 

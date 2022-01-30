@@ -46,14 +46,14 @@ public class CommandLineApplication implements CommandLineRunner {
                 if (ingredient.isQuantityAvailable()) {
                     System.out.printf(
                         "  %s - %.0f %s%n",
-                        ingredient.name(),
-                        ingredient.quantity().amount(),
-                        ingredient.quantity().unit()
+                        ingredient.getName(),
+                        ingredient.getQuantity().amount(),
+                        ingredient.getQuantity().unit()
                     );
                 } else {
                     System.out.printf(
                         "  %s - Unknown quantity%n",
-                        ingredient.name()
+                        ingredient.getName()
                     );
                 }
             });
@@ -86,17 +86,17 @@ public class CommandLineApplication implements CommandLineRunner {
         final Map<String, List<Quantity>> nonDeliveredIngredientMap,
         final Ingredient ingredient
     ) {
-        if (!nonDeliveredIngredientMap.containsKey(ingredient.name())) {
+        if (!nonDeliveredIngredientMap.containsKey(ingredient.getName())) {
             final List<Quantity> quantities = new ArrayList<>();
-            quantities.add(ingredient.quantity());
-            nonDeliveredIngredientMap.put(ingredient.name(), quantities);
+            quantities.add(ingredient.getQuantity());
+            nonDeliveredIngredientMap.put(ingredient.getName(), quantities);
         } else {
-            final List<Quantity> quantities = nonDeliveredIngredientMap.get(ingredient.name());
-            final Quantity existingQuantity = findAndRemoveQuantityWithSameUnit(quantities, ingredient.quantity());
+            final List<Quantity> quantities = nonDeliveredIngredientMap.get(ingredient.getName());
+            final Quantity existingQuantity = findAndRemoveQuantityWithSameUnit(quantities, ingredient.getQuantity());
             if (existingQuantity != null) {
-                quantities.add(existingQuantity.plus(ingredient.quantity()));
+                quantities.add(existingQuantity.plus(ingredient.getQuantity()));
             } else {
-                quantities.add(ingredient.quantity());
+                quantities.add(ingredient.getQuantity());
             }
         }
     }

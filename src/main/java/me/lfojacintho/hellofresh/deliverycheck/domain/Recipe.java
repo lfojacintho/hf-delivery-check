@@ -19,7 +19,7 @@ public record Recipe(
 
     private List<Ingredient> getFilteredIngredients(final boolean delivered) {
         return ingredients.stream()
-            .filter(ingredient -> ingredient.delivered() == delivered)
+            .filter(ingredient -> ingredient.getDelivered() == delivered)
             .toList();
     }
 
