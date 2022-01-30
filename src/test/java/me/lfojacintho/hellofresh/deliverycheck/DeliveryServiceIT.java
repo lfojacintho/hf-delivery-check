@@ -26,7 +26,7 @@ class DeliveryServiceIT extends AbstractIntegrationTest {
         assertThat(delivery)
             .isNotNull();
 
-        assertThat(delivery.recipes())
+        assertThat(delivery.getRecipes())
             .isNotNull()
             .hasSize(3)
             .extracting(
@@ -41,7 +41,7 @@ class DeliveryServiceIT extends AbstractIntegrationTest {
             );
 
         final Ingredient ingredientWithoutQuantity = delivery
-            .recipes()
+            .getRecipes()
             .get(0)
             .deliveredIngredients()
             .stream()

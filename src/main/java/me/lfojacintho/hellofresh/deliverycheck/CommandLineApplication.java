@@ -32,7 +32,7 @@ public class CommandLineApplication implements CommandLineRunner {
         final Map<String, List<Quantity>> nonDeliveredIngredientMap = new LinkedHashMap<>();
 
         System.out.println("Your delivery contains the following recipes:");
-        delivery.recipes().forEach(recipe -> {
+        delivery.getRecipes().forEach(recipe -> {
             System.out.printf(
                 "  %dx (%d) - %s%n",
                 recipe.quantity(),

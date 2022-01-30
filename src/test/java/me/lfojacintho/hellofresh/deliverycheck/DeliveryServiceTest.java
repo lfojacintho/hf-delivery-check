@@ -62,7 +62,7 @@ class DeliveryServiceTest {
         // assert
         assertThat(delivery)
             .isNotNull()
-            .extracting(Delivery::recipes)
+            .extracting(Delivery::getRecipes)
             .isNull();
         verify(client, never()).fetchRecipe(anyString());
     }

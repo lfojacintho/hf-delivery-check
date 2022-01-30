@@ -32,7 +32,7 @@ public class DeliveryService {
 
     public Delivery retrieveDelivery(final String week) {
         final List<MealDto> mealDtos = fetchSelectedMeals(week);
-        final Delivery.DeliveryBuilder deliveryBuilder = Delivery.DeliveryBuilder.builder();
+        final Delivery.Builder deliveryBuilder = new Delivery.Builder();
 
         mealDtos.forEach(mealDto -> {
             final Recipe recipe = retrieveRecipe(mealDto);
