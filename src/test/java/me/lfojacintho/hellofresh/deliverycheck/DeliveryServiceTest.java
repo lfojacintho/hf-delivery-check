@@ -7,6 +7,7 @@ import me.lfojacintho.hellofresh.deliverycheck.domain.Delivery;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static java.util.Collections.emptyList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
@@ -41,7 +42,7 @@ class DeliveryServiceTest {
     @Test
     void retrieveDeliveryShouldUseTheWeekPassedAsArgument() {
         // arrange
-        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto());
+        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto("id", ARBITRARY_WEEK, emptyList()));
 
         // act
         deliveryService.retrieveDelivery(ARBITRARY_WEEK);
@@ -53,7 +54,7 @@ class DeliveryServiceTest {
     @Test
     void retrieveDeliveryShouldReturnEmptyDeliveryWhenNoMealIsFound() {
         // arrange
-        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto());
+        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto("id", ARBITRARY_WEEK, emptyList()));
 
         // act
         final Delivery delivery = deliveryService.retrieveDelivery(ARBITRARY_WEEK);
