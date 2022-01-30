@@ -78,7 +78,7 @@ public class DeliveryService {
 
         final Ingredient.IngredientBuilder ingredientBuilder = Ingredient.IngredientBuilder.builder()
             .withName(ingredientDto.getName())
-            .withDelivered(ingredientDto.isShipped());
+            .withDelivered(ingredientDto.getShipped());
 
         if (maybeYieldIngredient.isPresent()) {
             final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
