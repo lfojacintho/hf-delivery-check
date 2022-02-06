@@ -13,6 +13,7 @@ import me.lfojacintho.hellofresh.deliverycheck.domain.Quantity;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Recipe;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -35,14 +36,11 @@ public class DeliveryService {
 
     public Delivery retrieveDelivery(final String week) {
         final List<MealDto> mealDtos = fetchSelectedMeals(week);
-        final Delivery.Builder deliveryBuilder = new Delivery.Builder();
+        final List<Recipe> recipes = new ArrayList<>();
 
-        mealDtos.forEach(mealDto -> {
-            final Recipe recipe = retrieveRecipe(mealDto);
-            deliveryBuilder.withRecipe(recipe);
-        });
+        mealDtos.forEach(mealDto -> recipes.add(retrieveRecipe(mealDto)));
 
-        return deliveryBuilder.build();
+        return new Delivery(recipes);
     }
 
     private Recipe retrieveRecipe(final MealDto mealDto) {
