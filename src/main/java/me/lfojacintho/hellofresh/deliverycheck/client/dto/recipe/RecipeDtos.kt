@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 data class IngredientAmountDto(
     @JsonProperty("id") val id: String,
     @JsonProperty("amount") val amount: Double,
-    @JsonProperty("unit") val unit: String
+    @JsonProperty("unit") val unit: String?
 )
 
 @JsonIgnoreProperties(ignoreUnknown = true)

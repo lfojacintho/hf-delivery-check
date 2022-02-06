@@ -47,8 +47,8 @@ public class CommandLineApplication implements CommandLineRunner {
                     System.out.printf(
                         "  %s - %.0f %s%n",
                         ingredient.getName(),
-                        ingredient.getQuantity().amount(),
-                        ingredient.getQuantity().unit()
+                        ingredient.getQuantity().getAmount(),
+                        ingredient.getQuantity().getUnit()
                     );
                 } else {
                     System.out.printf(
@@ -72,8 +72,8 @@ public class CommandLineApplication implements CommandLineRunner {
         nonDeliveredIngredientMap.forEach((name, quantities) -> quantities.forEach(quantity -> System.out.printf(
             "  %s - %.0f %s%n",
             name,
-            quantity.amount(),
-            quantity.unit()
+            quantity.getAmount(),
+            quantity.getUnit()
         )));
     }
 

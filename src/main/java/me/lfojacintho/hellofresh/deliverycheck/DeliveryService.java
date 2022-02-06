@@ -82,9 +82,9 @@ public class DeliveryService {
 
         if (maybeYieldIngredient.isPresent()) {
             final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
-            ingredientBuilder.withQuantity(Quantity.of(
+            ingredientBuilder.withQuantity(new Quantity(
                 yieldIngredient.getAmount(),
-                yieldIngredient.getUnit()
+                Optional.ofNullable(yieldIngredient.getUnit()).orElse("(?)")
             ));
         }
         return ingredientBuilder.build();
