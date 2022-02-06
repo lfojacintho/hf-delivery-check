@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @Profile("!test")
 @Component
@@ -48,7 +49,7 @@ public class CommandLineApplication implements CommandLineRunner {
                         "  %s - %.0f %s%n",
                         ingredient.name(),
                         ingredient.quantity().amount(),
-                        ingredient.quantity().unit()
+                        Optional.ofNullable(ingredient.quantity().unit()).orElse("(?)")
                     );
                 } else {
                     System.out.printf(
@@ -73,7 +74,7 @@ public class CommandLineApplication implements CommandLineRunner {
             "  %s - %.0f %s%n",
             name,
             quantity.amount(),
-            quantity.unit()
+            Optional.ofNullable(quantity.unit()).orElse("(?)")
         )));
     }
 

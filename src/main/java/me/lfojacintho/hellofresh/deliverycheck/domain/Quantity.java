@@ -1,5 +1,7 @@
 package me.lfojacintho.hellofresh.deliverycheck.domain;
 
+import java.util.Objects;
+
 public record Quantity (
     double amount,
     String unit
@@ -10,7 +12,7 @@ public record Quantity (
     }
 
     public boolean isSameUnit(final Quantity other) {
-        return this.unit.equals(other.unit);
+        return Objects.equals(unit, other.unit);
     }
 
     public Quantity plus(final Quantity other) {
