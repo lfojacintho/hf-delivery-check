@@ -48,6 +48,6 @@ class DeliveryServiceIT extends AbstractIntegrationTest {
             .filter(ingredient -> ingredient.getName().equals("Feldsalat"))
             .findFirst()
             .get();
-        assertThat(ingredientWithoutQuantity.isQuantityAvailable()).isFalse();
+        assertThat(ingredientWithoutQuantity.getQuantity().isKnown()).isFalse();
     }
 }

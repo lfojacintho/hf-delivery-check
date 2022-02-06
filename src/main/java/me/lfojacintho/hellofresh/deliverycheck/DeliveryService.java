@@ -19,6 +19,9 @@ import java.util.Optional;
 @Service
 public class DeliveryService {
 
+    // TODO remove when migrate this to Kotlin
+    private static final Quantity UNKNOWN_QUANTITY = new Quantity(0, "(?)", false);
+
     private final HelloFreshClient client;
     private final HelloFreshProductConfiguration productConfiguration;
 
@@ -76,18 +79,19 @@ public class DeliveryService {
             .filter(ingredientAmountDto -> ingredientDto.getId().equals(ingredientAmountDto.getId()))
             .findFirst();
 
-        final Ingredient.Builder ingredientBuilder = new Ingredient.Builder()
-            .withName(ingredientDto.getName())
-            .withDelivered(ingredientDto.getShipped());
-
+        final Quantity quantity;
         if (maybeYieldIngredient.isPresent()) {
             final IngredientAmountDto yieldIngredient = maybeYieldIngredient.get();
-            ingredientBuilder.withQuantity(new Quantity(
+            quantity = new Quantity(
                 yieldIngredient.getAmount(),
-                Optional.ofNullable(yieldIngredient.getUnit()).orElse("(?)")
-            ));
+                Optional.ofNullable(yieldIngredient.getUnit()).orElse("(?)"),
+                true
+            );
+        } else {
+            quantity = UNKNOWN_QUANTITY;
         }
-        return ingredientBuilder.build();
+
+        return new Ingredient(ingredientDto.getName(), quantity, ingredientDto.getShipped());
     }
 
     private List<MealDto> fetchSelectedMeals(final String week) {

@@ -1,8 +1,11 @@
 package me.lfojacintho.hellofresh.deliverycheck.domain
 
+val UNKNOWN_QUANTITY = Quantity(amount = 0.0, isKnown = false)
+
 data class Quantity(
     val amount: Double,
-    val unit: String = "(?)"
+    val unit: String = "(?)",
+    val isKnown: Boolean = true
 ) {
 
     fun isSameUnit(other: Quantity): Boolean {

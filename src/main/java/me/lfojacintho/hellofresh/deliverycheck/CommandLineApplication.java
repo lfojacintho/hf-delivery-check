@@ -43,7 +43,7 @@ public class CommandLineApplication implements CommandLineRunner {
             System.out.println();
             System.out.println("The following ingredients should be delivered");
             recipe.deliveredIngredients().forEach(ingredient -> {
-                if (ingredient.isQuantityAvailable()) {
+                if (ingredient.getQuantity().isKnown()) {
                     System.out.printf(
                         "  %s - %.0f %s%n",
                         ingredient.getName(),
@@ -59,7 +59,7 @@ public class CommandLineApplication implements CommandLineRunner {
             });
 
             recipe.nonDeliveredIngredients().forEach(ingredient -> {
-                if (ingredient.isQuantityAvailable()) {
+                if (ingredient.getQuantity().isKnown()) {
                     aggregateNonDeliveredIngredients(nonDeliveredIngredientMap, ingredient);
                 }
             });
