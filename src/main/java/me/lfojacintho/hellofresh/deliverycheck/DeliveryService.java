@@ -49,7 +49,7 @@ public class DeliveryService {
         final YieldDto yieldDto =
             recipeDto.getYields()
                 .stream()
-                .filter(y -> y.getYields() == productConfiguration.servings())
+                .filter(y -> y.getYields() == productConfiguration.getServings())
                 .findFirst()
                 .orElse(null);
 

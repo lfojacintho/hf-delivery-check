@@ -20,13 +20,13 @@ public class RestConfiguration {
     @Bean
     public WebClient webClient() {
         return WebClient.builder()
-            .baseUrl(hfClientConfig.baseUrl())
+            .baseUrl(hfClientConfig.getBaseUrl())
             .defaultHeaders(this::configureDefaultHeaders)
             .build();
     }
 
     private void configureDefaultHeaders(final HttpHeaders headers) {
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.setBearerAuth(hfClientConfig.authToken());
+        headers.setBearerAuth(hfClientConfig.getAuthToken());
     }
 }

@@ -43,13 +43,13 @@ public class HelloFreshClient {
 
     private MultiValueMap<String, String> getMenuParameters(final String week) {
         final MultiValueMap<String, String> parameters = new LinkedMultiValueMap<>();
-        addParameterIfPresent(parameters, "delivery-option", productConfiguration.deliveryOption());
-        addParameterIfPresent(parameters, "locale", productConfiguration.locale());
-        addParameterIfPresent(parameters, "postcode", productConfiguration.postcode());
-        addParameterIfPresent(parameters, "preference", productConfiguration.preference());
-        addParameterIfPresent(parameters, "product-sku", productConfiguration.sku());
-        addParameterIfPresent(parameters, "servings", String.valueOf(productConfiguration.servings()));
-        addParameterIfPresent(parameters, "subscription", productConfiguration.subscription());
+        addParameterIfPresent(parameters, "delivery-option", productConfiguration.getDeliveryOption());
+        addParameterIfPresent(parameters, "locale", productConfiguration.getLocale());
+        addParameterIfPresent(parameters, "postcode", productConfiguration.getPostcode());
+        addParameterIfPresent(parameters, "preference", productConfiguration.getPreference());
+        addParameterIfPresent(parameters, "product-sku", productConfiguration.getSku());
+        addParameterIfPresent(parameters, "servings", String.valueOf(productConfiguration.getServings()));
+        addParameterIfPresent(parameters, "subscription", productConfiguration.getSubscription());
         addParameterIfPresent(parameters, "week", week);
 
         return parameters;
@@ -57,8 +57,8 @@ public class HelloFreshClient {
 
     private MultiValueMap<String, String> getRecipeParameters() {
         final LinkedMultiValueMap<String, String> parameters = new LinkedMultiValueMap<>();
-        addParameterIfPresent(parameters, "country", productConfiguration.country());
-        addParameterIfPresent(parameters, "locale", productConfiguration.locale());
+        addParameterIfPresent(parameters, "country", productConfiguration.getCountry());
+        addParameterIfPresent(parameters, "locale", productConfiguration.getLocale());
         return parameters;
     }
 
