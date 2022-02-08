@@ -35,9 +35,9 @@ public class CommandLineApplication implements CommandLineRunner {
         delivery.getRecipes().forEach(recipe -> {
             System.out.printf(
                 "  %dx (%d) - %s%n",
-                recipe.quantity(),
-                recipe.index(),
-                recipe.title()
+                recipe.getQuantity(),
+                recipe.getIndex(),
+                recipe.getTitle()
             );
 
             System.out.println();

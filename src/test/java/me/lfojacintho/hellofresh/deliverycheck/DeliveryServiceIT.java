@@ -30,9 +30,9 @@ class DeliveryServiceIT extends AbstractIntegrationTest {
             .isNotNull()
             .hasSize(3)
             .extracting(
-                Recipe::quantity,
-                Recipe::index,
-                Recipe::title
+                Recipe::getQuantity,
+                Recipe::getIndex,
+                Recipe::getTitle
             )
             .containsExactly(
                 tuple(1, 4, "Honig-Senf-Hähnchen mit Kürbispüree"),

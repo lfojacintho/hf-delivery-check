@@ -44,11 +44,6 @@ public class DeliveryService {
     }
 
     private Recipe retrieveRecipe(final MealDto mealDto) {
-        final Recipe.RecipeBuilder recipeBuilder = Recipe.RecipeBuilder.builder()
-            .withQuantity(mealDto.getSelection().getQuantity())
-            .withIndex(mealDto.getIndex())
-            .withTitle(mealDto.getRecipe().getName());
-
         final RecipeDto recipeDto = client.fetchRecipe(mealDto.getRecipe().getId());
         final List<IngredientDto> ingredients = recipeDto.getIngredients();
         final YieldDto yieldDto =
@@ -58,12 +53,18 @@ public class DeliveryService {
                 .findFirst()
                 .orElse(null);
 
+        final List<Ingredient> recipeIngredients = new ArrayList<>();
         ingredients.forEach(ingredientDto -> {
             final Ingredient ingredient = retrieveIngredient(ingredientDto, yieldDto);
-            recipeBuilder.withIngredient(ingredient);
+            recipeIngredients.add(ingredient);
         });
 
-        return recipeBuilder.build();
+        return new Recipe(
+            mealDto.getSelection().getQuantity(),
+            mealDto.getIndex(),
+            mealDto.getRecipe().getName(),
+            recipeIngredients
+        );
     }
 
     private Ingredient retrieveIngredient(
