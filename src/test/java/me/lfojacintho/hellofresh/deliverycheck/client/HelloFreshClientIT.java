@@ -38,7 +38,7 @@ class HelloFreshClientIT extends AbstractIntegrationTest {
             .isNotNull()
             .hasSize(7);
 
-        assertThat(menuDto.getSelectedMeals())
+        assertThat(menuDto.selectedMeals())
             .isNotNull()
             .hasSize(3);
     }

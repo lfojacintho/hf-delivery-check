@@ -8,9 +8,7 @@ data class Quantity(
     val isKnown: Boolean = true
 ) {
 
-    fun isSameUnit(other: Quantity): Boolean {
-        return unit == other.unit
-    }
+    fun isSameUnit(other: Quantity) = unit == other.unit
 
     fun plus(other: Quantity): Quantity {
         if (!isSameUnit(other)) {

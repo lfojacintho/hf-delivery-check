@@ -94,7 +94,7 @@ public class DeliveryService {
     }
 
     private List<MealDto> fetchSelectedMeals(final String week) {
-        return client.fetchMenu(week).getSelectedMeals();
+        return client.fetchMenu(week).selectedMeals();
     }
 
 

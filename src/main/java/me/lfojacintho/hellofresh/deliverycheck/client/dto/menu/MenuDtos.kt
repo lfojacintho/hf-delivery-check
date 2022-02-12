@@ -16,10 +16,7 @@ data class MenuDto(
     @JsonProperty("week") val week: String,
     @JsonProperty("meals") val meals: List<MealDto>
 ) {
-    fun getSelectedMeals() : List<MealDto> {
-        return meals.filter { it.selection != null }
-            .sortedBy { it.index }
-    }
+    fun selectedMeals() = meals.filter { it.selection != null }.sortedBy { it.index }
 }
 
 @JsonIgnoreProperties(ignoreUnknown = true)
