@@ -14,9 +14,12 @@ data class MealDto(
 data class MenuDto(
     @JsonProperty("id") val id: String,
     @JsonProperty("week") val week: String,
-    @JsonProperty("meals") val meals: List<MealDto>
+    @JsonProperty("meals") val meals: List<MealDto>,
+    @JsonProperty("addOns") val addOn: MenuAddOnDto
 ) {
-    fun selectedMeals() = meals.filter { it.selection != null }.sortedBy { it.index }
+    fun selectedMeals() = (meals + addOn.groups.map { it.addOns }.flatten())
+            .filter { it.selection != null }
+            .sortedBy { it.index }
 }
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -27,5 +30,20 @@ data class RecipeInfoDto(
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class SelectionDto(
-    @JsonProperty("quantity") val quantity: Int
+    @JsonProperty("quantity") private val quantity: Int?,
+    @JsonProperty("oneOffQuantity") private val oneOffQuantity: Int?
+) {
+    fun quantity() = quantity ?: oneOffQuantity ?: 0
+}
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class MenuAddOnDto(
+    @JsonProperty("groups") val groups: List<AddOnGroupDto>
+)
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class AddOnGroupDto(
+    @JsonProperty("groupType") val type: String,
+    @JsonProperty("sku") val sku: String,
+    @JsonProperty("addOns") val addOns: List<MealDto>
 )

@@ -1,9 +1,11 @@
 package me.lfojacintho.hellofresh.deliverycheck;
 
 import me.lfojacintho.hellofresh.deliverycheck.client.HelloFreshClient;
+import me.lfojacintho.hellofresh.deliverycheck.client.dto.menu.MenuAddOnDto;
 import me.lfojacintho.hellofresh.deliverycheck.client.dto.menu.MenuDto;
 import me.lfojacintho.hellofresh.deliverycheck.config.HelloFreshProductConfiguration;
 import me.lfojacintho.hellofresh.deliverycheck.domain.Delivery;
+import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -42,7 +44,7 @@ class DeliveryServiceTest {
     @Test
     void retrieveDeliveryShouldUseTheWeekPassedAsArgument() {
         // arrange
-        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto("id", ARBITRARY_WEEK, emptyList()));
+        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto("id", ARBITRARY_WEEK, emptyList(), emptyAddOn()));
 
         // act
         deliveryService.retrieveDelivery(ARBITRARY_WEEK);
@@ -54,7 +56,7 @@ class DeliveryServiceTest {
     @Test
     void retrieveDeliveryShouldReturnEmptyDeliveryWhenNoMealIsFound() {
         // arrange
-        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto("id", ARBITRARY_WEEK, emptyList()));
+        when(client.fetchMenu(ARBITRARY_WEEK)).thenReturn(new MenuDto("id", ARBITRARY_WEEK, emptyList(), emptyAddOn()));
 
         // act
         final Delivery delivery = deliveryService.retrieveDelivery(ARBITRARY_WEEK);
@@ -65,5 +67,10 @@ class DeliveryServiceTest {
             .extracting(Delivery::getRecipes)
             .isNull();
         verify(client, never()).fetchRecipe(anyString());
+    }
+
+    @NotNull
+    private MenuAddOnDto emptyAddOn() {
+        return new MenuAddOnDto(emptyList());
     }
 }

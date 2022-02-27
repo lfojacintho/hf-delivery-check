@@ -30,7 +30,7 @@ class DeliveryService(
         val recipeIngredients = ingredients.map { retrieveIngredient(it, yieldDto) }
 
         return Recipe(
-            mealDto.selection!!.quantity,
+            mealDto.selection!!.quantity(),
             mealDto.index,
             mealDto.recipe.name,
             recipeIngredients
