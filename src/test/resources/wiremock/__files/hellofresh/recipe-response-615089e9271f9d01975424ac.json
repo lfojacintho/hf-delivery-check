@@ -1,0 +1,1148 @@
+{
+    "country": "DE",
+    "id": "615089e9271f9d01975424ac",
+    "name": "Hoisin-Hackfleisch-Miniburger",
+    "seoName": "Hoisin-Hackfleisch-Miniburger",
+    "category": null,
+    "slug": "hoisin-hackfleisch-miniburger",
+    "headline": "für 2 – 3 Personen | 30 Minuten",
+    "description": "Unsere Miniburger sind prall gefüllt und lassen sich dank der kleinen Burger Buns super teilen.",
+    "descriptionHTML": "<p>Unsere Miniburger sind prall gefüllt und lassen sich dank der kleinen Burger Buns super teilen.</p>",
+    "descriptionMarkdown": "Unsere Miniburger sind prall gefüllt und lassen sich dank der kleinen Burger Buns super teilen.",
+    "seoDescription": "Hier kommt ein kreatives Rezept für Dich: Hoisin-Hackfleisch-Miniburger mit Karottensalat",
+    "comment": "ADD2263-17",
+    "difficulty": 1,
+    "prepTime": "PT30M",
+    "totalTime": "PT30M",
+    "servingSize": 475,
+    "createdAt": "2021-09-26T14:55:38+00:00",
+    "updatedAt": "2021-10-06T07:42:30+00:00",
+    "link": "https://hellofresh.com/recipes/615089e9271f9d01975424ac",
+    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/hoisin-hackfleisch-miniburger-af4c67df.jpg",
+    "imagePath": "/image/hoisin-hackfleisch-miniburger-af4c67df.jpg",
+    "cardLink": null,
+    "videoLink": null,
+    "nutrition":
+    [
+        {
+            "type": "57b42a48b7e8697d4b30530d",
+            "name": "Energie (kJ)",
+            "amount": 3963,
+            "unit": "kJ"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305304",
+            "name": "Energie (kcal)",
+            "amount": 947,
+            "unit": "kcal"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305307",
+            "name": "Fett",
+            "amount": 50,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305308",
+            "name": "davon gesättigte Fettsäuren",
+            "amount": 18,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305305",
+            "name": "Kohlenhydrate",
+            "amount": 83,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305306",
+            "name": "davon Zucker",
+            "amount": 17,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305309",
+            "name": "Eiweiß",
+            "amount": 39,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b30530b",
+            "name": "Salz",
+            "amount": 4,
+            "unit": "g"
+        }
+    ],
+    "ingredients":
+    [
+        {
+            "country": "DE",
+            "id": "5be2f5ee30006c02235833e2",
+            "type": "gemischtes-hackfleisch",
+            "name": "gemischtes Hackfleisch",
+            "slug": "hack",
+            "description": null,
+            "internalName": "gemischtes Hackfleisch",
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5be2f5ee30006c02235833e2-d30aca50.png",
+            "imagePath": "/ingredient/5be2f5ee30006c02235833e2-d30aca50.png",
+            "usage": 520,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fbda",
+                "type": "minced-meat",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbda-bb3f0c9b.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbda-bb3f0c9b.png",
+                "usageByCountry":
+                {
+                    "AO": 0,
+                    "AT": 962,
+                    "AU": 23,
+                    "BE": 815,
+                    "CA": 26,
+                    "CG": 0,
+                    "CH": 275,
+                    "CK": 1,
+                    "DE": 724,
+                    "DK": 66,
+                    "ER": 0,
+                    "FJ": 0,
+                    "FR": 379,
+                    "GB": 11,
+                    "GN": 75,
+                    "IT": 56,
+                    "JP": 0,
+                    "LU": 945,
+                    "MR": 0,
+                    "NL": 706,
+                    "NO": 138,
+                    "NZ": 25,
+                    "SE": 95,
+                    "US": 0
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:32+00:00",
+                "uuid": "41994c9b-c9f3-563a-b9c8-202779014593",
+                "name": "Rindfleisch Kalbfleisch Schweinefleisch",
+                "slug": "Rindfleisch-Kalbfleisch-Schweinefleisch"
+            },
+            "uuid": "86a16920-3f7a-5b89-8781-fd97eb543eb8"
+        },
+        {
+            "country": "DE",
+            "id": "554b23dff8b25ef53e8b456f",
+            "type": "karotten",
+            "name": "Karotte",
+            "slug": "karotten",
+            "description": null,
+            "internalName": null,
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b23dff8b25ef53e8b456f.png",
+            "imagePath": "/image/554b23dff8b25ef53e8b456f.png",
+            "usage": 2400,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fb62",
+                "type": "carrot",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb62-c4a1f62d.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb62-c4a1f62d.png",
+                "usageByCountry":
+                {
+                    "AO": 688,
+                    "AT": 3005,
+                    "AU": 2053,
+                    "BE": 753,
+                    "CA": 469,
+                    "CG": 0,
+                    "CH": 1350,
+                    "CK": 308,
+                    "DE": 2696,
+                    "DK": 968,
+                    "ER": 456,
+                    "FJ": 93,
+                    "FR": 650,
+                    "GB": 1052,
+                    "GN": 138,
+                    "IT": 79,
+                    "JP": 0,
+                    "LU": 896,
+                    "MR": 0,
+                    "NL": 684,
+                    "NO": 881,
+                    "NZ": 1826,
+                    "SE": 1063,
+                    "US": 1007
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:30+00:00",
+                "uuid": "b183506b-ae5e-5689-9362-9c74e6f64079",
+                "name": "Karotte",
+                "slug": "Karotte"
+            },
+            "uuid": "1930e2c4-6b5e-50e2-ad0a-9570f7b2540f"
+        },
+        {
+            "country": "DE",
+            "id": "555357a3f8b25e89038b456a",
+            "type": "limette-gewachst",
+            "name": "Limette, gewachst",
+            "slug": "limette-gewachst",
+            "description": null,
+            "internalName": null,
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/555357a3f8b25e89038b456a.png",
+            "imagePath": "/image/555357a3f8b25e89038b456a.png",
+            "usage": 1517,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fbc8",
+                "type": "lime",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbc8-7cbce945.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbc8-7cbce945.png",
+                "usageByCountry":
+                {
+                    "AO": 57,
+                    "AT": 1936,
+                    "AU": 507,
+                    "BE": 40,
+                    "CA": 551,
+                    "CG": 0,
+                    "CH": 870,
+                    "CK": 251,
+                    "DE": 1739,
+                    "DK": 551,
+                    "ER": 585,
+                    "FJ": 215,
+                    "FR": 505,
+                    "GB": 1348,
+                    "GN": 187,
+                    "IT": 87,
+                    "JP": 0,
+                    "LU": 68,
+                    "MR": 0,
+                    "NL": 50,
+                    "NO": 486,
+                    "NZ": 149,
+                    "SE": 580,
+                    "US": 1430
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:31+00:00",
+                "uuid": "56e4f66d-871d-50f5-8619-c9d10b949c50",
+                "name": "Limette",
+                "slug": "Limette"
+            },
+            "uuid": "8b2c1d0b-2e4f-5a87-bdca-823d9d838c85"
+        },
+        {
+            "country": "DE",
+            "id": "554b27e6fd2cb983608b4569",
+            "type": "fruhlingszwiebeln",
+            "name": "Frühlingszwiebel",
+            "slug": "fruhlingszwiebeln",
+            "description": null,
+            "internalName": null,
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b27e6fd2cb983608b4569.png",
+            "imagePath": "/image/554b27e6fd2cb983608b4569.png",
+            "usage": 2624,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fc35",
+                "type": "spring-onion",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc35-03c06826.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc35-03c06826.png",
+                "usageByCountry":
+                {
+                    "AO": 0,
+                    "AT": 2890,
+                    "AU": 0,
+                    "BE": 377,
+                    "CA": 0,
+                    "CG": 0,
+                    "CH": 1272,
+                    "CK": 0,
+                    "DE": 2624,
+                    "DK": 0,
+                    "ER": 0,
+                    "FJ": 0,
+                    "FR": 169,
+                    "GB": 0,
+                    "GN": 89,
+                    "IT": 0,
+                    "JP": 0,
+                    "LU": 204,
+                    "MR": 0,
+                    "NL": 462,
+                    "NO": 0,
+                    "NZ": 0,
+                    "SE": 0,
+                    "US": 0
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:34+00:00",
+                "uuid": "c957532b-2dea-5b9e-a5ed-d28d54e1269a",
+                "name": "Frühlingszwiebel",
+                "slug": "Frühlingszwiebel"
+            },
+            "uuid": "114127f4-0d56-5391-bba5-d6940ddc4ec4"
+        },
+        {
+            "country": "DE",
+            "id": "5dbc1fd540e5fe5c57590fe2",
+            "type": "hoisinsosze",
+            "name": "Hoisinsoße",
+            "slug": "hoisinsosze",
+            "description": "Hoisinsoße",
+            "internalName": "Hoisinsoße",
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5dbc1fd540e5fe5c57590fe2-418b1586.png",
+            "imagePath": "/ingredient/5dbc1fd540e5fe5c57590fe2-418b1586.png",
+            "usage": 85,
+            "hasDuplicatedName": null,
+            "allergens":
+            [
+                "57962a07b7e8697d4b3052f5",
+                "57962a07b7e8697d4b3052f9"
+            ],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fbb2",
+                "type": "hoisin-sauce",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbb2-c927cff8.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbb2-c927cff8.png",
+                "usageByCountry":
+                {
+                    "AO": 50,
+                    "AT": 144,
+                    "AU": 125,
+                    "BE": 14,
+                    "CA": 195,
+                    "CG": 0,
+                    "CH": 58,
+                    "CK": 76,
+                    "DE": 115,
+                    "DK": 30,
+                    "ER": 190,
+                    "FJ": 0,
+                    "FR": 0,
+                    "GB": 144,
+                    "GN": 0,
+                    "IT": 27,
+                    "JP": 0,
+                    "LU": 31,
+                    "MR": 0,
+                    "NL": 25,
+                    "NO": 24,
+                    "NZ": 154,
+                    "SE": 29,
+                    "US": 672
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:31+00:00",
+                "uuid": "07224e1c-aa04-5c05-be67-b4f65c42d0ce",
+                "name": "asiatische Paste",
+                "slug": "asiatische-Paste"
+            },
+            "uuid": "a762f25d-eb7a-5c4e-9488-03d2184e12ae"
+        },
+        {
+            "country": "DE",
+            "id": "554b2b03f8b25ef93e8b456d",
+            "type": "mayonnaise",
+            "name": "Mayonnaise",
+            "slug": "mayonnaise",
+            "description": null,
+            "internalName": null,
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b2b03f8b25ef93e8b456d.png",
+            "imagePath": "/image/554b2b03f8b25ef93e8b456d.png",
+            "usage": 1137,
+            "hasDuplicatedName": null,
+            "allergens":
+            [
+                "57962a07b7e8697d4b3052f6",
+                "57962a07b7e8697d4b3052fd"
+            ],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fbd2",
+                "type": "mayonnaise",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbd2-9da5628e.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbd2-9da5628e.png",
+                "usageByCountry":
+                {
+                    "AO": 400,
+                    "AT": 1403,
+                    "AU": 901,
+                    "BE": 76,
+                    "CA": 967,
+                    "CG": 0,
+                    "CH": 609,
+                    "CK": 534,
+                    "DE": 1259,
+                    "DK": 389,
+                    "ER": 244,
+                    "FJ": 55,
+                    "FR": 354,
+                    "GB": 567,
+                    "GN": 77,
+                    "IT": 54,
+                    "JP": 0,
+                    "LU": 56,
+                    "MR": 0,
+                    "NL": 788,
+                    "NO": 356,
+                    "NZ": 796,
+                    "SE": 397,
+                    "US": 843
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:32+00:00",
+                "uuid": "5f20b64c-c295-574e-804d-cb43aad42446",
+                "name": "Mayonnaise",
+                "slug": "Mayonnaise"
+            },
+            "uuid": "78622003-ec65-55fd-8fd4-f126d8e232dd"
+        },
+        {
+            "country": "DE",
+            "id": "5d03a857709f0a000a1b0dee",
+            "type": "mini-burger-mit-sesam",
+            "name": "Mini-Burger mit Sesam",
+            "slug": "mini-burger-mit-sesam",
+            "description": "Mini-Burger mit Sesam",
+            "internalName": "Mini-Burger mit Sesam",
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5d03a857709f0a000a1b0dee-94a5171f.png",
+            "imagePath": "/ingredient/5d03a857709f0a000a1b0dee-94a5171f.png",
+            "usage": 20,
+            "hasDuplicatedName": null,
+            "allergens":
+            [
+                "57962a07b7e8697d4b3052fe",
+                "57962a07b7e8697d4b3052f5",
+                "57962a07b7e8697d4b3052f6",
+                "57962a07b7e8697d4b3052fa"
+            ],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fb54",
+                "type": "bread",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fb54-1e82dfa9.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fb54-1e82dfa9.png",
+                "usageByCountry":
+                {
+                    "AO": 232,
+                    "AT": 2169,
+                    "AU": 1133,
+                    "BE": 1300,
+                    "CA": 1107,
+                    "CG": 0,
+                    "CH": 810,
+                    "CK": 609,
+                    "DE": 1957,
+                    "DK": 445,
+                    "ER": 810,
+                    "FJ": 0,
+                    "FR": 701,
+                    "GB": 1427,
+                    "GN": 34,
+                    "IT": 118,
+                    "JP": 0,
+                    "LU": 1477,
+                    "MR": 0,
+                    "NL": 1586,
+                    "NO": 400,
+                    "NZ": 872,
+                    "SE": 489,
+                    "US": 2100
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:30+00:00",
+                "uuid": "3d0e6d2e-79f6-5aa1-ae2c-52c38a401193",
+                "name": "Brotteig",
+                "slug": "Brotteig"
+            },
+            "uuid": "8c4af074-4019-5148-aad5-ec590ddf297f"
+        },
+        {
+            "country": "DE",
+            "id": "556c08624dab7169208b4568",
+            "type": "tomatenmark",
+            "name": "Tomatenmark",
+            "slug": "tomatenmark",
+            "description": null,
+            "internalName": null,
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/556c08624dab7169208b4568-d1278e3a.png",
+            "imagePath": "/ingredient/556c08624dab7169208b4568-d1278e3a.png",
+            "usage": 662,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fc45",
+                "type": "tomato-paste",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc45-d192dac7.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc45-d192dac7.png",
+                "usageByCountry":
+                {
+                    "AO": 325,
+                    "AT": 1475,
+                    "AU": 612,
+                    "BE": 887,
+                    "CA": 441,
+                    "CG": 0,
+                    "CH": 530,
+                    "CK": 444,
+                    "DE": 970,
+                    "DK": 129,
+                    "ER": 246,
+                    "FJ": 136,
+                    "FR": 494,
+                    "GB": 1539,
+                    "GN": 156,
+                    "IT": 3,
+                    "JP": 0,
+                    "LU": 1247,
+                    "MR": 0,
+                    "NL": 1053,
+                    "NO": 120,
+                    "NZ": 604,
+                    "SE": 223,
+                    "US": 556
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:35+00:00",
+                "uuid": "ead9e83c-158c-5ebe-bb04-ec24d45b8d80",
+                "name": "Zutat Paste",
+                "slug": "Zutat-Paste"
+            },
+            "uuid": "e2c36f93-d267-5a4f-ba40-4ff9512881e3"
+        },
+        {
+            "country": "DE",
+            "id": "5c8c05bee3f3391eda4320b2",
+            "type": "kase-mix",
+            "name": "Käse-Mix",
+            "slug": "kase-mix",
+            "description": null,
+            "internalName": "Käse-Mix",
+            "shipped": true,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/5c8c05bee3f3391eda4320b2-685b711f.png",
+            "imagePath": "/ingredient/5c8c05bee3f3391eda4320b2-685b711f.png",
+            "usage": 682,
+            "hasDuplicatedName": null,
+            "allergens":
+            [
+                "57962a07b7e8697d4b3052fa"
+            ],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fbd9",
+                "type": "milk",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fbd9-a1323e62.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fbd9-a1323e62.png",
+                "usageByCountry":
+                {
+                    "AO": 439,
+                    "AT": 2558,
+                    "AU": 1261,
+                    "BE": 943,
+                    "CA": 323,
+                    "CG": 0,
+                    "CH": 1125,
+                    "CK": 157,
+                    "DE": 2243,
+                    "DK": 83,
+                    "ER": 78,
+                    "FJ": 1211,
+                    "FR": 244,
+                    "GB": 33,
+                    "GN": 5,
+                    "IT": 10,
+                    "JP": 0,
+                    "LU": 973,
+                    "MR": 0,
+                    "NL": 1032,
+                    "NO": 59,
+                    "NZ": 1002,
+                    "SE": 97,
+                    "US": 307
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:32+00:00",
+                "uuid": "90b64d51-e5c8-5bad-872e-b079526b0e98",
+                "name": "Milch",
+                "slug": "Milch"
+            },
+            "uuid": "3edafa48-1ce9-5c4b-9e27-a0c9bd74317b"
+        },
+        {
+            "country": "DE",
+            "id": "55b0a135fd2cb9121e8b4567",
+            "type": "pfeffer-100g",
+            "name": "Pfeffer*",
+            "slug": "pfeffer",
+            "description": null,
+            "internalName": "Pfeffer [home]",
+            "shipped": false,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/55b0a135fd2cb9121e8b4567.png",
+            "imagePath": "/image/55b0a135fd2cb9121e8b4567.png",
+            "usage": 10610,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fc05",
+                "type": "pepper-spice",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc05-00a37cd9.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc05-00a37cd9.png",
+                "usageByCountry":
+                {
+                    "AO": 0,
+                    "AT": 12478,
+                    "AU": 172,
+                    "BE": 37,
+                    "CA": 1768,
+                    "CG": 0,
+                    "CH": 5231,
+                    "CK": 650,
+                    "DE": 10991,
+                    "DK": 11,
+                    "ER": 2850,
+                    "FJ": 1473,
+                    "FR": 24,
+                    "GB": 287,
+                    "GN": 12,
+                    "IT": 403,
+                    "JP": 0,
+                    "LU": 1341,
+                    "MR": 0,
+                    "NL": 5,
+                    "NO": 9,
+                    "NZ": 92,
+                    "SE": 13,
+                    "US": 7022
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:33+00:00",
+                "uuid": "1a4ca769-9a3a-5784-947b-31ea6b9b05ae",
+                "name": "Pfeffer",
+                "slug": "Pfeffer"
+            },
+            "uuid": "18289a1e-99c0-4a85-b947-2e2de39d452a"
+        },
+        {
+            "country": "DE",
+            "id": "554b1c284dab71a9058b456b",
+            "type": "salz-100g",
+            "name": "Salz*",
+            "slug": "salz",
+            "description": null,
+            "internalName": null,
+            "shipped": false,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b1c284dab71a9058b456b.png",
+            "imagePath": "/image/554b1c284dab71a9058b456b.png",
+            "usage": 10955,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fc25",
+                "type": "salt",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc25-abd39ad0.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc25-abd39ad0.png",
+                "usageByCountry":
+                {
+                    "AO": 260,
+                    "AT": 12504,
+                    "AU": 1548,
+                    "BE": 1,
+                    "CA": 2226,
+                    "CG": 0,
+                    "CH": 5232,
+                    "CK": 846,
+                    "DE": 11010,
+                    "DK": 135,
+                    "ER": 2852,
+                    "FJ": 1060,
+                    "FR": 46,
+                    "GB": 215,
+                    "GN": 24,
+                    "IT": 406,
+                    "JP": 0,
+                    "LU": 0,
+                    "MR": 0,
+                    "NL": 5,
+                    "NO": 99,
+                    "NZ": 1398,
+                    "SE": 845,
+                    "US": 7001
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:34+00:00",
+                "uuid": "3f408771-5872-55e3-95fb-9fc1f9b31aff",
+                "name": "Einzel Gewürz",
+                "slug": "Einzel-Gewürz"
+            },
+            "uuid": "1721f064-999a-4eb9-8ada-40148b88cc35"
+        },
+        {
+            "country": "DE",
+            "id": "554b2319fd2cb9ba598b456d",
+            "type": "zucker-100g",
+            "name": "Zucker*",
+            "slug": "zucker",
+            "description": null,
+            "internalName": "Zucker [home]",
+            "shipped": false,
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/image/554b2319fd2cb9ba598b456d.png",
+            "imagePath": "/image/554b2319fd2cb9ba598b456d.png",
+            "usage": 2189,
+            "hasDuplicatedName": null,
+            "allergens":
+            [],
+            "family":
+            {
+                "id": "58877cf3ed71a76e9c03fc3b",
+                "type": "sugar",
+                "description": null,
+                "priority": 0,
+                "iconLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient-families/58877cf3ed71a76e9c03fc3b-20b617ed.png",
+                "iconPath": "/ingredient-families/58877cf3ed71a76e9c03fc3b-20b617ed.png",
+                "usageByCountry":
+                {
+                    "AO": 258,
+                    "AT": 2632,
+                    "AU": 1157,
+                    "BE": 714,
+                    "CA": 1488,
+                    "CG": 0,
+                    "CH": 928,
+                    "CK": 458,
+                    "DE": 2443,
+                    "DK": 125,
+                    "ER": 52,
+                    "FJ": 100,
+                    "FR": 580,
+                    "GB": 522,
+                    "GN": 57,
+                    "IT": 107,
+                    "JP": 0,
+                    "LU": 1072,
+                    "MR": 0,
+                    "NL": 870,
+                    "NO": 86,
+                    "NZ": 1016,
+                    "SE": 406,
+                    "US": 82
+                },
+                "createdAt": "2017-01-24T16:12:35+00:00",
+                "updatedAt": "2020-11-19T15:34:34+00:00",
+                "uuid": "6f31f49a-e368-5bbc-b82e-9e801b957293",
+                "name": "Einzel Gewürz",
+                "slug": "Einzel-Gewürz"
+            },
+            "uuid": "b8591de6-da41-4331-9311-e34b469b060b"
+        }
+    ],
+    "allergens":
+    [
+        {
+            "id": "57962a07b7e8697d4b3052f5",
+            "type": "gluten",
+            "description": null,
+            "tracesOf": false,
+            "triggersTracesOf": false,
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+            "usage": 1406,
+            "name": "Glutenhaltiges Getreide (Weizen) oder daraus hergestellte Erzeugnisse",
+            "slug": "glutenhaltiges-getreide-weizen-oder-daraus-hergestellte-erzeugnisse"
+        },
+        {
+            "id": "57962a07b7e8697d4b3052f9",
+            "type": "soy",
+            "description": null,
+            "tracesOf": false,
+            "triggersTracesOf": false,
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+            "usage": 390,
+            "name": "Soja oder Sojaerzeugnisse",
+            "slug": "soja"
+        },
+        {
+            "id": "57962a07b7e8697d4b3052f6",
+            "type": "egg",
+            "description": null,
+            "tracesOf": false,
+            "triggersTracesOf": false,
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+            "usage": 365,
+            "name": "Eier oder Eierzeugnisse",
+            "slug": "eier-oder-eierzeugnisse"
+        },
+        {
+            "id": "57962a07b7e8697d4b3052fd",
+            "type": "mustard",
+            "description": null,
+            "tracesOf": false,
+            "triggersTracesOf": false,
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+            "usage": 158,
+            "name": "Senf oder Senferzeugnisse",
+            "slug": "senf"
+        },
+        {
+            "id": "57962a07b7e8697d4b3052fe",
+            "type": "sesame",
+            "description": null,
+            "tracesOf": false,
+            "triggersTracesOf": false,
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+            "usage": 175,
+            "name": "Sesamsamen oder Sesamsamenerzeugnisse",
+            "slug": "sesamsamen-oder-sesamsamenerzeugnisse"
+        },
+        {
+            "id": "57962a07b7e8697d4b3052fa",
+            "type": "milk",
+            "description": null,
+            "tracesOf": false,
+            "triggersTracesOf": false,
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+            "usage": 1018,
+            "name": "Milch oder Milcherzeugnisse (einschließlich Laktose)",
+            "slug": "milch-oder-milcherzeugnisse-einschlieszlich-laktose"
+        }
+    ],
+    "utensils":
+    [
+        {
+            "id": "57e2674fb7e8697d4b305390",
+            "type": "cup",
+            "name": "Becher"
+        },
+        {
+            "id": "57e2674fb7e8697d4b305373",
+            "type": "largepan",
+            "name": "Große Pfanne"
+        },
+        {
+            "id": "57e2674fb7e8697d4b305372",
+            "type": "largebowl",
+            "name": "Große Schüssel"
+        },
+        {
+            "id": "57e2674fb7e8697d4b305368",
+            "type": "bakingsheet",
+            "name": "Backblech"
+        }
+    ],
+    "tags":
+    [],
+    "cuisines":
+    [
+        {
+            "id": "57ebbc17b7e8697d4b3053ba",
+            "type": "vietnamise",
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ba-93abc4f8.jpg",
+            "iconPath": "/cuisines/57ebbc17b7e8697d4b3053ba-93abc4f8.jpg",
+            "usage": 656,
+            "name": "Vietnamesisch",
+            "slug": "vietnamesisch"
+        }
+    ],
+    "wines":
+    [],
+    "marketplaceItems":
+    [],
+    "author": null,
+    "label": null,
+    "yieldType": "0",
+    "yields":
+    [
+        {
+            "yields": 2,
+            "ingredients":
+            [
+                {
+                    "id": "5be2f5ee30006c02235833e2",
+                    "amount": 200,
+                    "unit": "g"
+                },
+                {
+                    "id": "554b23dff8b25ef53e8b456f",
+                    "amount": 2,
+                    "unit": "Stück"
+                },
+                {
+                    "id": "555357a3f8b25e89038b456a",
+                    "amount": 1,
+                    "unit": "Stück"
+                },
+                {
+                    "id": "554b27e6fd2cb983608b4569",
+                    "amount": 1,
+                    "unit": "Stück"
+                },
+                {
+                    "id": "5dbc1fd540e5fe5c57590fe2",
+                    "amount": 25,
+                    "unit": "ml"
+                },
+                {
+                    "id": "554b2b03f8b25ef93e8b456d",
+                    "amount": 34,
+                    "unit": "ml"
+                },
+                {
+                    "id": "5d03a857709f0a000a1b0dee",
+                    "amount": 1,
+                    "unit": "Packung"
+                },
+                {
+                    "id": "556c08624dab7169208b4568",
+                    "amount": 1,
+                    "unit": "Esslöffel"
+                },
+                {
+                    "id": "5c8c05bee3f3391eda4320b2",
+                    "amount": 50,
+                    "unit": "g"
+                },
+                {
+                    "id": "55b0a135fd2cb9121e8b4567",
+                    "amount": null,
+                    "unit": "nach Geschmack"
+                },
+                {
+                    "id": "554b1c284dab71a9058b456b",
+                    "amount": null,
+                    "unit": "nach Geschmack"
+                },
+                {
+                    "id": "554b2319fd2cb9ba598b456d",
+                    "amount": null,
+                    "unit": "nach Geschmack"
+                }
+            ]
+        }
+    ],
+    "steps":
+    [
+        {
+            "index": 1,
+            "instructionsMarkdown": "**Bitte beachte die Informationen zu Inhaltsstoffen und Allergenen auf dem Produktetikett.**\n\nHeize den Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vor. Weißen und grünen Teil der Frühlingszwiebel getrennt voneinander in dünne Ringe schneiden.",
+            "instructionsHTML": "<p><strong>Bitte beachte die Informationen zu Inhaltsstoffen und Allergenen auf dem Produktetikett.</strong></p>\n<p>Heize den Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vor. Weißen und grünen Teil der Frühlingszwiebel getrennt voneinander in dünne Ringe schneiden.</p>",
+            "instructions": "Bitte beachte die Informationen zu Inhaltsstoffen und Allergenen auf dem Produktetikett.\nHeize den Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vor. Weißen und grünen Teil der Frühlingszwiebel getrennt voneinander in dünne Ringe schneiden.",
+            "timers":
+            [],
+            "images":
+            [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/615089e9271f9d01975424ac/step-cf954ebf.jpg",
+                    "path": "/615089e9271f9d01975424ac/step-cf954ebf.jpg",
+                    "caption": "Kleine Vorbereitung"
+                }
+            ],
+            "videos":
+            [],
+            "ingredients":
+            [
+                "554b27e6fd2cb983608b4569"
+            ],
+            "utensils":
+            []
+        },
+        {
+            "index": 2,
+            "instructionsMarkdown": "Hackfleisch und die weißen Frühlingszwiebelringe in einer großen Pfanne erhitzen und für 3 – 4 Min. scharf anbraten. Das Hackfleisch dabei gut zerkleinern. Hitze etwas reduzieren und Hackfleisch mit 1 EL Tomatenmark, Hoisinsoße und 50 ml [75 ml | 100 ml] Wasser\\* ablöschen. Umrühren und ca. 2 – 3 Min. köcheln lassen, bis die Masse etwas eingedickt ist. Mit Salz\\*, Pfeffer\\* und 1 Prise Zucker\\* abschmecken.",
+            "instructionsHTML": "<p>Hackfleisch und die weißen Frühlingszwiebelringe in einer großen Pfanne erhitzen und für 3 – 4 Min. scharf anbraten. Das Hackfleisch dabei gut zerkleinern. Hitze etwas reduzieren und Hackfleisch mit 1 EL Tomatenmark, Hoisinsoße und 50 ml [75 ml | 100 ml] Wasser* ablöschen. Umrühren und ca. 2 – 3 Min. köcheln lassen, bis die Masse etwas eingedickt ist. Mit Salz*, Pfeffer* und 1 Prise Zucker* abschmecken.</p>",
+            "instructions": "Hackfleisch und die weißen Frühlingszwiebelringe in einer großen Pfanne erhitzen und für 3 – 4 Min. scharf anbraten. Das Hackfleisch dabei gut zerkleinern. Hitze etwas reduzieren und Hackfleisch mit 1 EL Tomatenmark, Hoisinsoße und 50 ml [75 ml | 100 ml] Wasser* ablöschen. Umrühren und ca. 2 – 3 Min. köcheln lassen, bis die Masse etwas eingedickt ist. Mit Salz*, Pfeffer* und 1 Prise Zucker* abschmecken.",
+            "timers":
+            [],
+            "images":
+            [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/615089e9271f9d01975424ac/step-7b2a91fe.jpg",
+                    "path": "/615089e9271f9d01975424ac/step-7b2a91fe.jpg",
+                    "caption": "Fleisch braten"
+                }
+            ],
+            "videos":
+            [],
+            "ingredients":
+            [
+                "5be2f5ee30006c02235833e2",
+                "5dbc1fd540e5fe5c57590fe2",
+                "556c08624dab7169208b4568"
+            ],
+            "utensils":
+            [
+                "57e2674fb7e8697d4b305390",
+                "57e2674fb7e8697d4b305373"
+            ]
+        },
+        {
+            "index": 3,
+            "instructionsMarkdown": "Limette vierteln. Karotten schälen und grob in eine große Schüssel raspeln. Geraspelte Karotten und grüne Frühlingszwiebelringe zusammen mit Mayonnaise und Saft einer Limettenspalte vermengen. Mit Salz\\* und Pfeffer\\* abschmecken. Beiseitestellen.",
+            "instructionsHTML": "<p>Limette vierteln. Karotten schälen und grob in eine große Schüssel raspeln. Geraspelte Karotten und grüne Frühlingszwiebelringe zusammen mit Mayonnaise und Saft einer Limettenspalte vermengen. Mit Salz* und Pfeffer* abschmecken. Beiseitestellen.</p>",
+            "instructions": "Limette vierteln. Karotten schälen und grob in eine große Schüssel raspeln. Geraspelte Karotten und grüne Frühlingszwiebelringe zusammen mit Mayonnaise und Saft einer Limettenspalte vermengen. Mit Salz* und Pfeffer* abschmecken. Beiseitestellen.",
+            "timers":
+            [],
+            "images":
+            [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/615089e9271f9d01975424ac/step-c6d08d89.jpg",
+                    "path": "/615089e9271f9d01975424ac/step-c6d08d89.jpg",
+                    "caption": "Für den Salat"
+                }
+            ],
+            "videos":
+            [],
+            "ingredients":
+            [
+                "554b23dff8b25ef53e8b456f",
+                "555357a3f8b25e89038b456a",
+                "554b2b03f8b25ef93e8b456d"
+            ],
+            "utensils":
+            [
+                "57e2674fb7e8697d4b305372"
+            ]
+        },
+        {
+            "index": 4,
+            "instructionsMarkdown": "Brot auspacken und waagerecht aufschneiden. Brot aufgeklappt auf einem mit Backpapier belegten Backblech im vorgeheizten Ofen für 3 – 4 Min. aufbacken.",
+            "instructionsHTML": "<p>Brot auspacken und waagerecht aufschneiden. Brot aufgeklappt auf einem mit Backpapier belegten Backblech im vorgeheizten Ofen für 3 – 4 Min. aufbacken.</p>",
+            "instructions": "Brot auspacken und waagerecht aufschneiden. Brot aufgeklappt auf einem mit Backpapier belegten Backblech im vorgeheizten Ofen für 3 – 4 Min. aufbacken.",
+            "timers":
+            [],
+            "images":
+            [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/615089e9271f9d01975424ac/step-7ec74c92.jpg",
+                    "path": "/615089e9271f9d01975424ac/step-7ec74c92.jpg",
+                    "caption": "Brot aufbacken"
+                }
+            ],
+            "videos":
+            [],
+            "ingredients":
+            [
+                "5d03a857709f0a000a1b0dee"
+            ],
+            "utensils":
+            [
+                "57e2674fb7e8697d4b305368"
+            ]
+        },
+        {
+            "index": 5,
+            "instructionsMarkdown": "Brotunterseite zuerst mit Hackfleischfüllung belegen. Mit dem Käse-Mix toppen und für weitere 1 – 2 Min. im Ofen gratinieren lassen. Dann mit Karottensalat belegen und den Brotdeckel aufsetzen.",
+            "instructionsHTML": "<p>Brotunterseite zuerst mit Hackfleischfüllung belegen. Mit dem Käse-Mix toppen und für weitere 1 – 2 Min. im Ofen gratinieren lassen. Dann mit Karottensalat belegen und den Brotdeckel aufsetzen.</p>",
+            "instructions": "Brotunterseite zuerst mit Hackfleischfüllung belegen. Mit dem Käse-Mix toppen und für weitere 1 – 2 Min. im Ofen gratinieren lassen. Dann mit Karottensalat belegen und den Brotdeckel aufsetzen.",
+            "timers":
+            [],
+            "images":
+            [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/615089e9271f9d01975424ac/step-60d84aa9.jpg",
+                    "path": "/615089e9271f9d01975424ac/step-60d84aa9.jpg",
+                    "caption": "Brot füllen"
+                }
+            ],
+            "videos":
+            [],
+            "ingredients":
+            [
+                "5c8c05bee3f3391eda4320b2"
+            ],
+            "utensils":
+            []
+        },
+        {
+            "index": 6,
+            "instructionsMarkdown": "Fertiges Brot nach Belieben portionieren und mit Limettenspalten genießen. Guten Appetit!",
+            "instructionsHTML": "<p>Fertiges Brot nach Belieben portionieren und mit Limettenspalten genießen. Guten Appetit!</p>",
+            "instructions": "Fertiges Brot nach Belieben portionieren und mit Limettenspalten genießen. Guten Appetit!",
+            "timers":
+            [],
+            "images":
+            [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/615089e9271f9d01975424ac/step-d1ae1443.jpg",
+                    "path": "/615089e9271f9d01975424ac/step-d1ae1443.jpg",
+                    "caption": "Anrichten"
+                }
+            ],
+            "videos":
+            [],
+            "ingredients":
+            [],
+            "utensils":
+            []
+        }
+    ],
+    "averageRating": null,
+    "ratingsCount": null,
+    "favoritesCount": 91,
+    "active": true,
+    "highlighted": false,
+    "isDinnerToLunch": false,
+    "isExcludedFromIndex": false,
+    "isPremium": false,
+    "isAddon": true,
+    "websiteUrl": "https://www.hellofresh.de/recipes/hoisin-hackfleisch-miniburger-615089e9271f9d01975424ac",
+    "clonedFrom": "611a07a975363f78bb603030",
+    "canonical": "61c0ae9f29f6c80bc405d304",
+    "canonicalLink": "https://www.hellofresh.de/recipes/hoisin-hackfleisch-miniburger-61c0ae9f29f6c80bc405d304",
+    "promotion": null,
+    "uniqueRecipeCode": null,
+    "uuid": null
+}
