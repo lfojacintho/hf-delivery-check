@@ -18,7 +18,7 @@ class DeliveryService(
         val selectedMeals = client
             .fetchMenu(week)
             .selectedMeals()
-            .map { retrieveRecipe(it) }
+            .map(::retrieveRecipe)
 
         return Delivery(selectedMeals)
     }
